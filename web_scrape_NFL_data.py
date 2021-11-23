@@ -13,12 +13,12 @@ def main():
     driver = webdriver.Chrome('/Users/landon/Downloads/chromedriver', options=chrome_options)  # Optional argument, if not specified will search path.
 
     # driver.get('https://www.teamrankings.com/nfl/rankings/teams/')
-    # driver.get('https://www.teamrankings.com/nfl/stat/points-per-game')
-    driver.get('https://www.teamrankings.com/nfl/stat/passing-yards-per-game')
+    driver.get('https://www.teamrankings.com/nfl/stat/points-per-game')
+    # driver.get('https://www.teamrankings.com/nfl/stat/passing-yards-per-game')
 
     sunday = subtract_1_week(get_prev_sunday())
-    # get_weekly_team_points(driver, sunday)
-    get_weekly_passing_yards(driver, sunday)
+    get_weekly_team_points(driver, sunday)
+    # get_weekly_passing_yards(driver, sunday)
     driver.quit()
 
 
