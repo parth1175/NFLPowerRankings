@@ -12,10 +12,13 @@ def main():
     chrome_options.headless = True # also works
     driver = webdriver.Chrome('/Users/landon/Downloads/chromedriver', options=chrome_options)  # Optional argument, if not specified will search path.
 
-    driver.get('https://www.teamrankings.com/nfl/rankings/teams/')
+    # driver.get('https://www.teamrankings.com/nfl/rankings/teams/')
+    # driver.get('https://www.teamrankings.com/nfl/stat/points-per-game')
+    driver.get('https://www.teamrankings.com/nfl/stat/passing-yards-per-game')
 
-    sunday = get_prev_sunday()
-    get_weekly_rankings(driver, sunday)
+    sunday = subtract_1_week(get_prev_sunday())
+    # get_weekly_team_points(driver, sunday)
+    get_weekly_passing_yards(driver, sunday)
     driver.quit()
 
 
@@ -47,6 +50,70 @@ def get_weekly_rankings(driver, date):
                 for team, rank in zip(teams, rankings):
                     filewriter.writerow([str(date.year), str(date.month), str(date.day), team, rank])
                     print(str(date.year), str(date.month), str(date.day), team, rank)
+
+            date = subtract_1_week(date)
+
+
+def get_weekly_team_points(driver, date):
+    with open('team_points.csv', 'w') as f:
+        filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        filewriter.writerow(['year', 'month', 'day', 'team', 'rank'])
+
+        selected_date = None
+        while date.year > 2019:
+
+            if selected_date is not None:
+                if selected_date.year != date.year:
+                    select_year(driver, date.year)
+                if selected_date.month != date.month:
+                    select_month(driver, date.month)
+                # day always changes when selecting month/year
+                select_day(driver, date.day)
+            else:
+                select_year(driver, date.year)
+                select_month(driver, date.month)
+                select_day(driver, date.day)
+
+            selected_date = datetime.date(date.year, date.month, date.day)
+
+            # only get ranks for in-season time range
+            if date.month >= 9 or date.month == 1 or date.month == 2:
+                teams, team_points = get_team_points(driver)
+                for team, points in zip(teams, team_points):
+                    filewriter.writerow([str(date.year), str(date.month), str(date.day), team, points])
+                    print(str(date.year), str(date.month), str(date.day), team, points)
+
+            date = subtract_1_week(date)
+
+
+def get_weekly_passing_yards(driver, date):
+    with open('passing_yards.csv', 'w') as f:
+        filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        filewriter.writerow(['year', 'month', 'day', 'team', 'rank'])
+
+        selected_date = None
+        while date.year > 2019:
+
+            if selected_date is not None:
+                if selected_date.year != date.year:
+                    select_year(driver, date.year)
+                if selected_date.month != date.month:
+                    select_month(driver, date.month)
+                # day always changes when selecting month/year
+                select_day(driver, date.day)
+            else:
+                select_year(driver, date.year)
+                select_month(driver, date.month)
+                select_day(driver, date.day)
+
+            selected_date = datetime.date(date.year, date.month, date.day)
+
+            # only get ranks for in-season time range
+            if date.month >= 9 or date.month == 1 or date.month == 2:
+                teams, passing_yards = get_passing_yards(driver)
+                for team, pass_yards in zip(teams, passing_yards):
+                    filewriter.writerow([str(date.year), str(date.month), str(date.day), team, pass_yards])
+                    print(str(date.year), str(date.month), str(date.day), team, pass_yards)
 
             date = subtract_1_week(date)
 
@@ -166,6 +233,44 @@ def get_ranks(driver):
             rankings.append(predictive_rank)
         # print(f'{team}: {predictive_rank}')
     return teams, rankings
+
+
+def get_passing_yards(driver):
+    search_box = driver.find_element(By.XPATH, "//table[@id='DataTables_Table_0']")
+    table_body = search_box.find_element(By.XPATH, ".//tbody")
+    table_rows = table_body.find_elements(By.XPATH, ".//tr")
+
+    teams, passing_yards = [], []
+    for row in table_rows:
+        row_data = []
+        for col in row.find_elements(By.XPATH, ".//td"):
+            row_data.append(col.text)
+
+        if len(row_data) == 8:
+            rank, team, game_pass_yards, last_3_yards, last_1_yards, home_yards, away_yards, prev_year_yards = row_data
+            teams.append(team)
+            passing_yards.append(game_pass_yards)
+        # print(f'{team}: {predictive_rank}')
+    return teams, passing_yards
+
+
+def get_team_points(driver):
+    search_box = driver.find_element(By.XPATH, "//table[@id='DataTables_Table_0']")
+    table_body = search_box.find_element(By.XPATH, ".//tbody")
+    table_rows = table_body.find_elements(By.XPATH, ".//tr")
+
+    teams, team_points = [], []
+    for row in table_rows:
+        row_data = []
+        for col in row.find_elements(By.XPATH, ".//td"):
+            row_data.append(col.text)
+
+        if len(row_data) == 8:
+            rank, team, game_points, last_3_points, last_1_points, home_points, away_points, prev_year_points = row_data
+            teams.append(team)
+            team_points.append(game_points)
+        # print(f'{team}: {predictive_rank}')
+    return teams, team_points
 
 
 def get_prev_sunday():
