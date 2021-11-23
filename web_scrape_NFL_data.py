@@ -57,7 +57,7 @@ def get_weekly_rankings(driver, date):
 def get_weekly_team_points(driver, date):
     with open('team_points.csv', 'w') as f:
         filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        filewriter.writerow(['year', 'month', 'day', 'team', 'rank'])
+        filewriter.writerow(['year', 'month', 'day', 'team', 'total points'])
 
         selected_date = None
         while date.year > 2019:
@@ -89,7 +89,7 @@ def get_weekly_team_points(driver, date):
 def get_weekly_passing_yards(driver, date):
     with open('passing_yards.csv', 'w') as f:
         filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        filewriter.writerow(['year', 'month', 'day', 'team', 'rank'])
+        filewriter.writerow(['year', 'month', 'day', 'team', 'passing yards'])
 
         selected_date = None
         while date.year > 2019:
