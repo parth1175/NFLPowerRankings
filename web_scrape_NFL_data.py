@@ -31,17 +31,17 @@ def main():
     yards_per_point = 'https://www.teamrankings.com/nfl/stat/yards-per-point'
 
     # defensive
-    oponent_ypg_url = 'https://www.teamrankings.com/nfl/stat/opponent-yards-per-game'
+    opponent_ypg_url = 'https://www.teamrankings.com/nfl/stat/opponent-yards-per-game'
     takeaways_url = 'https://www.teamrankings.com/nfl/stat/takeaways-per-game'
     opponent_third_down_conv_url = 'https://www.teamrankings.com/nfl/stat/opponent-third-down-conversion-pct'
     opponent_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-completion-pct'
     opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
     sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
 
-    driver.get(offensive_ints_url) # change this line of code based on feature needed
+    driver.get(opponent_ypg_url) # change this line of code based on feature needed
     sunday = get_prev_sunday()
 
-    get_weekly_feature(driver, sunday, 'offensive interceptions', column=5) # change column's title and csv filename to 3rd parameter
+    get_weekly_feature(driver, sunday, 'defensive yards per game allowed', column=5) # change column's title and csv filename to 3rd parameter
     driver.quit()
 
 
@@ -57,7 +57,7 @@ def get_weekly_feature(driver, date, feature, column=3):
         filewriter.writerow(['year', 'month', 'day', 'team', f'{feature}'])
 
         selected_date = None
-        while date.year > 2010:
+        while date.year > 2002:
 
             # change date until date-range is within football season
             while not (date.month >= 9 or date.month == 1 or date.month == 2):
