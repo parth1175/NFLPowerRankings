@@ -6,6 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import multiprocessing
+from multiprocessing import Pool, cpu_count
+
 
 # team rank / opponent rank to compare strength of schedule
 
@@ -36,11 +38,15 @@ def main():
     opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
     sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
 
-    driver.get(completion_percent_url) # change this line of code based on feature needed
+    driver.get(offensive_ints_url) # change this line of code based on feature needed
     sunday = get_prev_sunday()
 
-    get_weekly_feature(driver, sunday, 'completion percentage', column=5) # change column's title and csv filename to 3rd parameter
+    get_weekly_feature(driver, sunday, 'offensive interceptions', column=5) # change column's title and csv filename to 3rd parameter
     driver.quit()
+
+
+def log_data():
+    pass
 
 
 def get_weekly_feature(driver, date, feature, column=3):
@@ -51,7 +57,7 @@ def get_weekly_feature(driver, date, feature, column=3):
         filewriter.writerow(['year', 'month', 'day', 'team', f'{feature}'])
 
         selected_date = None
-        while date.year > 2002:
+        while date.year > 2010:
 
             # change date until date-range is within football season
             while not (date.month >= 9 or date.month == 1 or date.month == 2):
@@ -77,6 +83,7 @@ def get_weekly_feature(driver, date, feature, column=3):
             #     print('break')
 
             teams, features = get_feature(driver, column)
+
             for team, val in zip(teams, features):
                 filewriter.writerow([str(date.year), str(date.month), str(date.day), team, val])
                 print(str(date.year), str(date.month), str(date.day), team, val)
