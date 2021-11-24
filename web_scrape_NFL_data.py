@@ -5,6 +5,7 @@ import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+import multiprocessing
 
 # team rank / opponent rank to compare strength of schedule
 
@@ -14,19 +15,35 @@ def main():
     chrome_options.headless = True # also works
     driver = webdriver.Chrome('/Users/landon/Downloads/chromedriver', options=chrome_options)  # Optional argument, if not specified will search path.
 
-    passing_yards_url = 'https://www.teamrankings.com/nfl/stat/passing-yards-per-game'
-    rankings_url = 'https://www.teamrankings.com/nfl/rankings/teams/'
+    # overall
+    scoring_margin_url = 'https://www.teamrankings.com/nfl/stat/average-scoring-margin'
     points_per_game_url = 'https://www.teamrankings.com/nfl/stat/points-per-game'
-    interceptions_url = 'https://www.teamrankings.com/nfl/stat/interceptions-thrown-per-game'
 
-    driver.get(rankings_url) # change this line of code based on feature needed
+    # offensive
+    completion_percent_url = 'https://www.teamrankings.com/nfl/stat/completion-pct'
+    ypg_url = 'https://www.teamrankings.com/nfl/stat/yards-per-game'
+    red_zone_TD_percent_url = 'https://www.teamrankings.com/nfl/stat/red-zone-scoring-pct'
+    offensive_ints_url = 'https://www.teamrankings.com/nfl/stat/interceptions-thrown-per-game'
+    third_down_conv_percent_url = 'https://www.teamrankings.com/nfl/stat/third-down-conversion-pct'
+    touchdowns_per_game_url = 'https://www.teamrankings.com/nfl/stat/touchdowns-per-game'
+    yards_per_point = 'https://www.teamrankings.com/nfl/stat/yards-per-point'
+
+    # defensive
+    oponent_ypg_url = 'https://www.teamrankings.com/nfl/stat/opponent-yards-per-game'
+    takeaways_url = 'https://www.teamrankings.com/nfl/stat/takeaways-per-game'
+    opponent_third_down_conv_url = 'https://www.teamrankings.com/nfl/stat/opponent-third-down-conversion-pct'
+    opponent_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-completion-pct'
+    opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
+    sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
+
+    driver.get(completion_percent_url) # change this line of code based on feature needed
     sunday = get_prev_sunday()
 
-    get_weekly_feature(driver, sunday, 'ranking') # change column's title and csv filename to 3rd parameter
+    get_weekly_feature(driver, sunday, 'completion percentage', column=5) # change column's title and csv filename to 3rd parameter
     driver.quit()
 
 
-def get_weekly_feature(driver, date, feature):
+def get_weekly_feature(driver, date, feature, column=3):
     feature = feature.replace(' ', '_')
 
     with open(f'{feature}.csv', 'w') as f:
@@ -56,7 +73,10 @@ def get_weekly_feature(driver, date, feature):
             selected_date = datetime.date(date.year, date.month, date.day)
 
             # only get ranks for in-season time range
-            teams, features = get_feature(driver)
+            # if date.month == 9 and date.day == 12 and date.year == 2021:
+            #     print('break')
+
+            teams, features = get_feature(driver, column)
             for team, val in zip(teams, features):
                 filewriter.writerow([str(date.year), str(date.month), str(date.day), team, val])
                 print(str(date.year), str(date.month), str(date.day), team, val)
@@ -64,7 +84,7 @@ def get_weekly_feature(driver, date, feature):
             date = subtract_1_week(date)
 
 
-def get_feature(driver):
+def get_feature(driver, column):
     search_box = driver.find_element(By.XPATH, "//table[@id='DataTables_Table_0']")
     table_body = search_box.find_element(By.XPATH, ".//tbody")
     table_rows = table_body.find_elements(By.XPATH, ".//tr")
@@ -75,16 +95,20 @@ def get_feature(driver):
         for col in row.find_elements(By.XPATH, ".//td"):
             row_data.append(col.text)
 
-        if len(row_data) >= 3:
+        if len(row_data) >= column:
             # if webscraping from /stat then 1st column is a rank column
             if row_data[0].isdigit():
-                rank, team, feature, *other_cols = row_data
+                rank, team, *other_cols = row_data
+                feature = row_data[column-1]
             # if webscraping from /rankings then 1st column is team name, not rank
             else:
-                team, feature, *other_cols = row_data
+                team, *other_cols = row_data
+                feature = row_data[column-1]
 
-            teams.append(team)
-            features.append(feature)
+            # only include rows that aren't blank
+            if team != '' and feature != '--':
+                teams.append(team)
+                features.append(feature)
         # print(f'{team}: {feature}')
     return teams, features
 
