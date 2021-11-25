@@ -1,5 +1,6 @@
 import time
 import datetime
+from dateutil.relativedelta import *
 import csv
 
 from selenium import webdriver
@@ -14,7 +15,7 @@ from multiprocessing import Pool, cpu_count
 
 def main():
     chrome_options = Options()
-    chrome_options.headless = True # also works
+    chrome_options.headless = False # also works
     driver = webdriver.Chrome('/Users/landon/Downloads/chromedriver', options=chrome_options)  # Optional argument, if not specified will search path.
 
     # overall
@@ -38,10 +39,14 @@ def main():
     opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
     sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
 
-    driver.get(opponent_ypg_url) # change this line of code based on feature needed
-    sunday = get_prev_sunday()
+    master_schedule_url = 'https://www.pro-football-reference.com/years/2021/games.htm'
+    driver.get(master_schedule_url) # change this line of code based on feature needed
 
-    get_weekly_feature(driver, sunday, 'defensive yards per game allowed', column=5) # change column's title and csv filename to 3rd parameter
+    # sunday = get_prev_sunday()
+    # get_weekly_feature(driver, sunday, 'defensive yards per game allowed', column=5) # change column's title and csv filename to 3rd parameter
+
+    get_master_schedule(driver)
+
     driver.quit()
 
 
@@ -118,6 +123,51 @@ def get_feature(driver, column):
                 features.append(feature)
         # print(f'{team}: {feature}')
     return teams, features
+
+
+def get_master_schedule(driver, season=2021):
+
+    with open(f'master_schedule.csv', 'w') as f:
+        filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        filewriter.writerow(['Date', 'Winner/tie', 'Loser/tie', 'PtsW', 'PtsL'])
+
+        search_box = driver.find_element(By.XPATH, "//table[@id='games']")
+        table_body = search_box.find_element(By.XPATH, ".//tbody")
+        table_rows = table_body.find_elements(By.XPATH, ".//tr")
+
+        back_button = driver.find_element(By.XPATH, "//a[@class='button2 prev']")
+
+        teams, opponents = [], []
+        opponent_by_week_lookup = {}
+
+        weekly_matchups = []
+        while season > 2020:
+            for row in table_rows:
+                row_data = []
+                for col in row.find_elements(By.XPATH, ".//td"):
+                    row_data.append(col.text)
+
+                if len(row_data) >= 9:
+                    day, date, time_str, team1, _, team2, _, team1_score, team2_score, *_ = row_data
+
+                    if team1_score != '' and team2_score != '':
+                        d = datetime.datetime.strptime(date, '%Y-%m-%d')
+                        next_sunday = d + relativedelta(weekday=SU)
+                        next_sunday = str(next_sunday.date())
+
+                        weekly_data = [next_sunday, team1, team2, team1_score, team2_score]
+                        weekly_matchups.append(weekly_data)
+                        print(weekly_data)
+
+            # back_button.click()
+            # time.sleep(0.25)
+            season -= 1
+
+        for d in weekly_matchups:
+            filewriter.writerow([d[0], d[1], d[2], d[3], d[4]])
+            print(d[0], d[1], d[2], d[3], d[4])
+
+    return None
 
 
 def select_year(driver, year):
@@ -223,10 +273,64 @@ def get_prev_sunday():
     return last_sunday
 
 
+def get_next_sunday():
+    last_sunday = datetime.date.today() - datetime.timedelta(days=datetime.date.today().weekday() + 1)
+    friday = datetime.date.today() + datetime.timedelta((6 - today.weekday()) % 7)
+
+    return last_sunday
+
+
 def subtract_1_week(date):
     return date - datetime.timedelta(days=7)
+
+
+def lookup_name(name):
+    dict = {"Baltimore": "Baltimore Ravens",
+            "Buffalo": "Buffalo Bills",
+            "New Orleans": "New Orleans Saints",
+            "Pittsburgh": "Pittsburgh Steelers",
+            "Seattle": "Seattle Seahawks",
+            "New England": "New England Patriots",
+            "NY Giants": "New York Giants",
+            "Denver": "Denver Broncos",
+            "Miami": "Miami Dolphins",
+            "LA Rams": "Los Angeles Rams",
+            "Tampa Bay": "Tampa Bay Buccaneers",
+            "Tennessee": "Tennessee Titans",
+            "Cincinnati": "Cincinnati Bengals",
+            "Chicago": "Chicago Bears",
+            "Washington": "Washington Football Team",
+            "Jacksonville": "Jacksonville Jaguars",
+            "Arizona": "Arizona Cardinals",
+            "San Francisco": "San Francisco 49ers",
+            "Philadelphia": "Philadelphia Eagles",
+            "LA Chargers": "Los Angeles Chargers",
+            "NY Jets": "New York Jets",
+            "Houston": "Houston Texans",
+            "Dallas": "Dallas Cowboys",
+            "Indianapolis": "Indianapolis Colts",
+            "Minnesota": "Minnesota Vikings",
+            "Atlanta": "Atlanta Falcons",
+            "Kansas City": "Kansas City Chiefs",
+            "Cleveland": "Cleveland Browns",
+            "Green Bay": "Green Bay Packers",
+            "Carolina": "Carolina Panthers",
+            "Las Vegas": "Las Vegas Raiders",
+            "Detroit": "Detroit Lions"}
 
 
 if __name__ == '__main__':
     main()
 
+
+
+"""
+df.rename(columns={"Winner/tie": "team", "Loser/tie": "opponent"})
+
+flipped = df['column1','column2', 'column3', 'column5', 'column4', 'column6']
+
+pd.concat([df1, df2])
+
+data = pd.read_csv('./weeklyMatchups.csv')
+roster = pd.Dataframe(data)
+"""
