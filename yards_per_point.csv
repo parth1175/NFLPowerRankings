@@ -1,0 +1,2782 @@
+year,month,day,team,yards_per_point
+2021,11,21,Tennessee,11.5
+2021,11,21,Buffalo,10.9
+2021,11,21,New England,12.3
+2021,11,21,New Orleans,17.8
+2021,11,21,Arizona,16.9
+2021,11,21,Tampa Bay,14.4
+2021,11,21,Indianapolis,12.8
+2021,11,21,Philadelphia,12.9
+2021,11,21,Dallas,10.0
+2021,11,21,Cincinnati,21.8
+2021,11,21,LA Rams,27.8
+2021,11,21,San Francisco,10.8
+2021,11,21,LA Chargers,12.7
+2021,11,21,Kansas City,12.6
+2021,11,21,Carolina,10.0
+2021,11,21,Minnesota,14.1
+2021,11,21,Green Bay,23.1
+2021,11,21,Cleveland,31.0
+2021,11,21,Baltimore,30.4
+2021,11,21,Las Vegas,21.4
+2021,11,21,Washington,11.0
+2021,11,21,NY Giants,10.7
+2021,11,21,Pittsburgh,24.2
+2021,11,21,Chicago,15.3
+2021,11,21,Miami,15.9
+2021,11,21,Denver,23.7
+2021,11,21,NY Jets,21.5
+2021,11,21,Detroit,19.1
+2021,11,21,Houston,30.2
+2021,11,21,Jacksonville,19.5
+2021,11,14,New Orleans,15.0
+2021,11,14,Tennessee,6.9
+2021,11,14,Arizona,14.1
+2021,11,14,Tampa Bay,15.6
+2021,11,14,Buffalo,50.2
+2021,11,14,New England,11.4
+2021,11,14,Indianapolis,11.8
+2021,11,14,Philadelphia,13.8
+2021,11,14,LA Rams,21.7
+2021,11,14,Cincinnati,21.8
+2021,11,14,Seattle,7.4
+2021,11,14,Dallas,18.1
+2021,11,14,Green Bay,43.0
+2021,11,14,Cleveland,8.8
+2021,11,14,Atlanta,13.6
+2021,11,14,LA Chargers,16.5
+2021,11,14,San Francisco,19.8
+2021,11,14,Minnesota,10.3
+2021,11,14,Kansas City,18.2
+2021,11,14,Las Vegas,25.2
+2021,11,14,Pittsburgh,9.7
+2021,11,14,Baltimore,30.4
+2021,11,14,Denver,13.6
+2021,11,14,Carolina,40.0
+2021,11,14,NY Giants,10.7
+2021,11,14,Chicago,15.3
+2021,11,14,Miami,15.9
+2021,11,14,Washington,34.2
+2021,11,14,NY Jets,16.2
+2021,11,14,Detroit,38.0
+2021,11,14,Houston,30.2
+2021,11,14,Jacksonville,24.2
+2021,11,7,New Orleans,10.0
+2021,11,7,Buffalo,13.5
+2021,11,7,Arizona,15.9
+2021,11,7,Tampa Bay,15.6
+2021,11,7,Cincinnati,10.3
+2021,11,7,LA Rams,12.3
+2021,11,7,Tennessee,10.0
+2021,11,7,Indianapolis,11.8
+2021,11,7,Philadelphia,8.0
+2021,11,7,New England,13.0
+2021,11,7,Seattle,7.4
+2021,11,7,Green Bay,14.0
+2021,11,7,Dallas,21.0
+2021,11,7,Las Vegas,13.4
+2021,11,7,LA Chargers,15.4
+2021,11,7,San Francisco,14.2
+2021,11,7,Baltimore,23.1
+2021,11,7,Atlanta,16.4
+2021,11,7,Kansas City,18.4
+2021,11,7,Carolina,17.5
+2021,11,7,Cleveland,30.6
+2021,11,7,Minnesota,17.4
+2021,11,7,Chicago,14.7
+2021,11,7,Denver,16.1
+2021,11,7,Miami,23.8
+2021,11,7,Pittsburgh,24.7
+2021,11,7,NY Giants,17.6
+2021,11,7,Washington,34.2
+2021,11,7,NY Jets,16.2
+2021,11,7,Houston,14.7
+2021,11,7,Detroit,38.0
+2021,11,7,Jacksonville,44.1
+2021,10,31,Buffalo,13.5
+2021,10,31,New Orleans,23.4
+2021,10,31,Tampa Bay,10.7
+2021,10,31,Arizona,15.9
+2021,10,31,LA Rams,13.4
+2021,10,31,Dallas,16.2
+2021,10,31,Cincinnati,12.7
+2021,10,31,Tennessee,13.7
+2021,10,31,New England,10.2
+2021,10,31,Green Bay,14.0
+2021,10,31,Indianapolis,9.8
+2021,10,31,Seattle,21.9
+2021,10,31,Las Vegas,13.4
+2021,10,31,LA Chargers,34.7
+2021,10,31,Philadelphia,16.3
+2021,10,31,Kansas City,111.3
+2021,10,31,Baltimore,23.1
+2021,10,31,San Francisco,15.6
+2021,10,31,Carolina,57.7
+2021,10,31,Atlanta,13.2
+2021,10,31,Cleveland,22.1
+2021,10,31,Pittsburgh,15.0
+2021,10,31,Washington,43.0
+2021,10,31,Minnesota,16.8
+2021,10,31,Miami,14.8
+2021,10,31,Denver,15.9
+2021,10,31,Chicago,103.7
+2021,10,31,NY Giants,12.1
+2021,10,31,Detroit,21.8
+2021,10,31,Jacksonville,17.2
+2021,10,31,Houston,32.0
+2021,10,31,NY Jets,23.0
+2021,10,24,New Orleans,11.2
+2021,10,24,Buffalo,13.5
+2021,10,24,Arizona,9.5
+2021,10,24,Tampa Bay,14.3
+2021,10,24,LA Rams,9.6
+2021,10,24,Dallas,16.2
+2021,10,24,Tennessee,10.6
+2021,10,24,Cincinnati,11.7
+2021,10,24,Kansas City,16.1
+2021,10,24,Green Bay,13.5
+2021,10,24,Seattle,15.5
+2021,10,24,Washington,21.2
+2021,10,24,Carolina,10.9
+2021,10,24,Baltimore,9.6
+2021,10,24,Chicago,19.8
+2021,10,24,Philadelphia,9.7
+2021,10,24,LA Chargers,34.7
+2021,10,24,New England,11.6
+2021,10,24,Las Vegas,12.5
+2021,10,24,San Francisco,33.8
+2021,10,24,Indianapolis,12.5
+2021,10,24,Cleveland,22.1
+2021,10,24,Atlanta,16.7
+2021,10,24,Pittsburgh,15.0
+2021,10,24,Minnesota,16.8
+2021,10,24,Denver,15.9
+2021,10,24,Miami,21.6
+2021,10,24,Detroit,20.7
+2021,10,24,Jacksonville,17.2
+2021,10,24,NY Giants,23.7
+2021,10,24,Houston,117.7
+2021,10,24,NY Jets,11.5
+2021,10,17,New Orleans,11.2
+2021,10,17,Buffalo,11.5
+2021,10,17,Dallas,11.7
+2021,10,17,Tampa Bay,14.3
+2021,10,17,Arizona,17.9
+2021,10,17,Kansas City,19.6
+2021,10,17,Washington,17.0
+2021,10,17,Chicago,12.6
+2021,10,17,LA Rams,18.3
+2021,10,17,Green Bay,18.6
+2021,10,17,LA Chargers,10.5
+2021,10,17,Seattle,20.8
+2021,10,17,Cincinnati,16.7
+2021,10,17,Cleveland,12.6
+2021,10,17,Tennessee,9.9
+2021,10,17,Philadelphia,9.7
+2021,10,17,San Francisco,33.8
+2021,10,17,Carolina,14.8
+2021,10,17,Houston,16.4
+2021,10,17,Baltimore,16.9
+2021,10,17,Atlanta,16.7
+2021,10,17,Miami,17.7
+2021,10,17,New England,14.1
+2021,10,17,Las Vegas,28.8
+2021,10,17,Indianapolis,20.5
+2021,10,17,Minnesota,20.2
+2021,10,17,Pittsburgh,14.5
+2021,10,17,Detroit,16.9
+2021,10,17,Denver,19.7
+2021,10,17,NY Giants,18.4
+2021,10,17,Jacksonville,23.9
+2021,10,17,NY Jets,11.5
+2021,10,10,New Orleans,19.3
+2021,10,10,Buffalo,11.3
+2021,10,10,Arizona,12.6
+2021,10,10,Kansas City,11.2
+2021,10,10,Tampa Bay,20.1
+2021,10,10,Dallas,12.0
+2021,10,10,Green Bay,13.6
+2021,10,10,Washington,12.1
+2021,10,10,San Francisco,21.8
+2021,10,10,Cincinnati,17.5
+2021,10,10,LA Rams,18.3
+2021,10,10,Seattle,20.8
+2021,10,10,Chicago,15.5
+2021,10,10,Cleveland,23.4
+2021,10,10,Las Vegas,15.2
+2021,10,10,Indianapolis,12.9
+2021,10,10,Carolina,13.5
+2021,10,10,Baltimore,17.7
+2021,10,10,Miami,11.9
+2021,10,10,Minnesota,36.4
+2021,10,10,Atlanta,12.5
+2021,10,10,LA Chargers,13.6
+2021,10,10,Tennessee,17.9
+2021,10,10,Philadelphia,15.4
+2021,10,10,Denver,36.3
+2021,10,10,Jacksonville,16.2
+2021,10,10,Detroit,25.1
+2021,10,10,New England,17.3
+2021,10,10,Pittsburgh,16.6
+2021,10,10,NY Giants,18.0
+2021,10,10,NY Jets,13.1
+2021,10,3,New Orleans,9.0
+2021,10,3,Tampa Bay,18.6
+2021,10,3,San Francisco,10.6
+2021,10,3,LA Rams,12.0
+2021,10,3,Buffalo,11.2
+2021,10,3,Arizona,13.1
+2021,10,3,Green Bay,11.8
+2021,10,3,Kansas City,18.2
+2021,10,3,Dallas,9.3
+2021,10,3,Houston,21.4
+2021,10,3,Cincinnati,17.5
+2021,10,3,Washington,13.8
+2021,10,3,Cleveland,16.1
+2021,10,3,Chicago,7.8
+2021,10,3,Minnesota,15.1
+2021,10,3,Denver,13.2
+2021,10,3,Baltimore,20.4
+2021,10,3,Seattle,22.9
+2021,10,3,Las Vegas,16.0
+2021,10,3,Detroit,16.8
+2021,10,3,Tennessee,14.7
+2021,10,3,Carolina,17.0
+2021,10,3,Indianapolis,16.6
+2021,10,3,Jacksonville,16.2
+2021,10,3,Philadelphia,17.5
+2021,10,3,New England,23.1
+2021,10,3,LA Chargers,11.7
+2021,10,3,Miami,11.8
+2021,10,3,Pittsburgh,34.2
+2021,10,3,NY Giants,24.7
+2021,10,3,Atlanta,17.4
+2021,9,26,Tampa Bay,7.1
+2021,9,26,New Orleans,18.3
+2021,9,26,Kansas City,11.6
+2021,9,26,Arizona,13.9
+2021,9,26,LA Rams,13.7
+2021,9,26,San Francisco,18.0
+2021,9,26,Seattle,13.2
+2021,9,26,Buffalo,9.0
+2021,9,26,Cleveland,11.5
+2021,9,26,Cincinnati,14.6
+2021,9,26,Baltimore,13.4
+2021,9,26,Houston,21.4
+2021,9,26,Minnesota,12.7
+2021,9,26,Washington,13.6
+2021,9,26,Green Bay,9.2
+2021,9,26,Pittsburgh,19.5
+2021,9,26,Detroit,20.2
+2021,9,26,Las Vegas,16.3
+2021,9,26,Chicago,10.3
+2021,9,26,New England,10.4
+2021,9,26,Denver,17.3
+2021,9,26,NY Giants,13.5
+2021,9,26,Tennessee,16.1
+2021,9,26,Carolina,17.0
+2021,9,26,Jacksonville,14.5
+2021,9,26,Indianapolis,14.8
+2021,9,26,Philadelphia,29.8
+2021,9,26,Dallas,21.0
+2021,9,26,Atlanta,13.9
+2021,9,26,LA Chargers,24.0
+2021,9,26,NY Jets,56.0
+2021,9,19,New Orleans,8.5
+2021,9,19,San Francisco,10.8
+2021,9,19,Arizona,10.9
+2021,9,19,Pittsburgh,11.0
+2021,9,19,LA Rams,11.4
+2021,9,19,Kansas City,12.0
+2021,9,19,Houston,12.1
+2021,9,19,Detroit,13.0
+2021,9,19,Cincinnati,13.6
+2021,9,19,Philadelphia,13.6
+2021,9,19,Seattle,13.6
+2021,9,19,Tampa Bay,13.9
+2021,9,19,Washington,13.6
+2021,9,19,Las Vegas,14.9
+2021,9,19,Baltimore,15.0
+2021,9,19,Miami,15.2
+2021,9,19,Dallas,15.6
+2021,9,19,Denver,15.6
+2021,9,19,Cleveland,15.8
+2021,9,19,NY Giants,13.5
+2021,9,19,Minnesota,16.8
+2021,9,19,NY Jets,18.0
+2021,9,19,Jacksonville,18.8
+2021,9,19,Tennessee,19.1
+2021,9,19,Carolina,20.1
+2021,9,19,Indianapolis,21.0
+2021,9,19,LA Chargers,21.2
+2021,9,19,Chicago,23.0
+2021,9,19,Buffalo,23.2
+2021,9,19,New England,24.6
+2021,9,19,Atlanta,43.3
+2021,9,19,Green Bay,76.3
+2021,9,12,Tampa Bay,13.9
+2021,9,12,Dallas,15.6
+2021,9,5,Tampa Bay,11.0
+2021,9,5,Green Bay,14.7
+2021,9,5,New Orleans,14.7
+2021,9,5,Buffalo,15.1
+2021,9,5,Seattle,13.9
+2021,9,5,Tennessee,16.1
+2021,9,5,Pittsburgh,14.9
+2021,9,5,Baltimore,113.3
+2021,9,5,Miami,17.5
+2021,9,5,Indianapolis,19.7
+2021,9,5,Cleveland,18.1
+2021,9,5,Las Vegas,14.5
+2021,9,5,Kansas City,38.9
+2021,9,5,Chicago,26.6
+2021,9,5,Minnesota,13.7
+2021,9,5,Detroit,11.9
+2021,9,5,Atlanta,14.3
+2021,9,5,Arizona,30.6
+2021,9,5,Dallas,16.2
+2021,9,5,Washington,16.3
+2021,9,5,Houston,12.0
+2021,9,5,LA Rams,13.6
+2021,9,5,San Francisco,14.3
+2021,9,5,LA Chargers,10.9
+2021,9,5,Carolina,45.7
+2021,9,5,Philadelphia,15.4
+2021,9,5,New England,14.4
+2021,9,5,Cincinnati,65.0
+2021,9,5,Denver,14.4
+2021,9,5,Jacksonville,20.2
+2021,9,5,NY Giants,14.6
+2021,9,5,NY Jets,25.0
+2021,2,28,Tampa Bay,11.0
+2021,2,28,Green Bay,14.7
+2021,2,28,New Orleans,14.7
+2021,2,28,Buffalo,15.1
+2021,2,28,Seattle,13.9
+2021,2,28,Tennessee,16.1
+2021,2,28,Pittsburgh,14.9
+2021,2,28,Baltimore,113.3
+2021,2,28,Miami,17.5
+2021,2,28,Indianapolis,19.7
+2021,2,28,Cleveland,18.1
+2021,2,28,Las Vegas,14.5
+2021,2,28,Kansas City,38.9
+2021,2,28,Chicago,26.6
+2021,2,28,Minnesota,13.7
+2021,2,28,Detroit,11.9
+2021,2,28,Atlanta,14.3
+2021,2,28,Arizona,30.6
+2021,2,28,Dallas,16.2
+2021,2,28,Washington,16.3
+2021,2,28,Houston,12.0
+2021,2,28,LA Rams,13.6
+2021,2,28,San Francisco,14.3
+2021,2,28,LA Chargers,10.9
+2021,2,28,Carolina,45.7
+2021,2,28,Philadelphia,15.4
+2021,2,28,New England,14.4
+2021,2,28,Cincinnati,65.0
+2021,2,28,Denver,14.4
+2021,2,28,Jacksonville,20.2
+2021,2,28,NY Giants,14.6
+2021,2,28,NY Jets,25.0
+2021,2,21,Tampa Bay,11.0
+2021,2,21,Green Bay,14.7
+2021,2,21,New Orleans,14.7
+2021,2,21,Buffalo,15.1
+2021,2,21,Seattle,13.9
+2021,2,21,Tennessee,16.1
+2021,2,21,Pittsburgh,14.9
+2021,2,21,Baltimore,113.3
+2021,2,21,Miami,17.5
+2021,2,21,Indianapolis,19.7
+2021,2,21,Cleveland,18.1
+2021,2,21,Las Vegas,14.5
+2021,2,21,Kansas City,38.9
+2021,2,21,Chicago,26.6
+2021,2,21,Minnesota,13.7
+2021,2,21,Detroit,11.9
+2021,2,21,Atlanta,14.3
+2021,2,21,Arizona,30.6
+2021,2,21,Dallas,16.2
+2021,2,21,Washington,16.3
+2021,2,21,Houston,12.0
+2021,2,21,LA Rams,13.6
+2021,2,21,San Francisco,14.3
+2021,2,21,LA Chargers,10.9
+2021,2,21,Carolina,45.7
+2021,2,21,Philadelphia,15.4
+2021,2,21,New England,14.4
+2021,2,21,Cincinnati,65.0
+2021,2,21,Denver,14.4
+2021,2,21,Jacksonville,20.2
+2021,2,21,NY Giants,14.6
+2021,2,21,NY Jets,25.0
+2021,2,14,Tampa Bay,11.0
+2021,2,14,Green Bay,14.7
+2021,2,14,New Orleans,14.7
+2021,2,14,Buffalo,15.1
+2021,2,14,Seattle,13.9
+2021,2,14,Tennessee,16.1
+2021,2,14,Pittsburgh,14.9
+2021,2,14,Baltimore,113.3
+2021,2,14,Miami,17.5
+2021,2,14,Indianapolis,19.7
+2021,2,14,Cleveland,18.1
+2021,2,14,Las Vegas,14.5
+2021,2,14,Kansas City,38.9
+2021,2,14,Chicago,26.6
+2021,2,14,Minnesota,13.7
+2021,2,14,Detroit,11.9
+2021,2,14,Atlanta,14.3
+2021,2,14,Arizona,30.6
+2021,2,14,Dallas,16.2
+2021,2,14,Washington,16.3
+2021,2,14,Houston,12.0
+2021,2,14,LA Rams,13.6
+2021,2,14,San Francisco,14.3
+2021,2,14,LA Chargers,10.9
+2021,2,14,Carolina,45.7
+2021,2,14,Philadelphia,15.4
+2021,2,14,New England,14.4
+2021,2,14,Cincinnati,65.0
+2021,2,14,Denver,14.4
+2021,2,14,Jacksonville,20.2
+2021,2,14,NY Giants,14.6
+2021,2,14,NY Jets,25.0
+2021,2,7,Green Bay,14.7
+2021,2,7,Tampa Bay,11.3
+2021,2,7,New Orleans,14.7
+2021,2,7,Buffalo,15.1
+2021,2,7,Seattle,13.9
+2021,2,7,Tennessee,16.1
+2021,2,7,Pittsburgh,14.9
+2021,2,7,Baltimore,113.3
+2021,2,7,Miami,17.5
+2021,2,7,Indianapolis,19.7
+2021,2,7,Cleveland,18.1
+2021,2,7,Kansas City,11.6
+2021,2,7,Las Vegas,14.5
+2021,2,7,Chicago,26.6
+2021,2,7,Minnesota,13.7
+2021,2,7,Detroit,11.9
+2021,2,7,Atlanta,14.3
+2021,2,7,Arizona,30.6
+2021,2,7,Dallas,16.2
+2021,2,7,Washington,16.3
+2021,2,7,Houston,12.0
+2021,2,7,LA Rams,13.6
+2021,2,7,San Francisco,14.3
+2021,2,7,LA Chargers,10.9
+2021,2,7,Carolina,45.7
+2021,2,7,Philadelphia,15.4
+2021,2,7,New England,14.4
+2021,2,7,Cincinnati,65.0
+2021,2,7,Denver,14.4
+2021,2,7,Jacksonville,20.2
+2021,2,7,NY Giants,14.6
+2021,2,7,NY Jets,25.0
+2021,1,31,Baltimore,16.0
+2021,1,31,Green Bay,11.2
+2021,1,31,Pittsburgh,12.6
+2021,1,31,Tampa Bay,12.5
+2021,1,31,New Orleans,11.2
+2021,1,31,Tennessee,18.6
+2021,1,31,Seattle,14.6
+2021,1,31,Miami,14.7
+2021,1,31,Buffalo,12.5
+2021,1,31,Indianapolis,15.2
+2021,1,31,Chicago,9.5
+2021,1,31,Las Vegas,16.7
+2021,1,31,Kansas City,23.2
+2021,1,31,Cleveland,18.7
+2021,1,31,Minnesota,11.0
+2021,1,31,Arizona,29.2
+2021,1,31,Atlanta,26.2
+2021,1,31,Dallas,13.9
+2021,1,31,Detroit,26.6
+2021,1,31,Washington,29.7
+2021,1,31,Carolina,14.0
+2021,1,31,San Francisco,19.9
+2021,1,31,Cincinnati,14.6
+2021,1,31,Houston,15.7
+2021,1,31,Philadelphia,28.1
+2021,1,31,LA Rams,37.1
+2021,1,31,New England,22.3
+2021,1,31,LA Chargers,16.6
+2021,1,31,Denver,24.8
+2021,1,31,Jacksonville,16.4
+2021,1,31,NY Giants,20.7
+2021,1,31,NY Jets,14.5
+2021,1,24,Baltimore,10.2
+2021,1,24,Green Bay,12.1
+2021,1,24,Pittsburgh,14.4
+2021,1,24,Tampa Bay,13.4
+2021,1,24,Tennessee,10.1
+2021,1,24,New Orleans,9.8
+2021,1,24,Seattle,15.1
+2021,1,24,Miami,17.4
+2021,1,24,Indianapolis,13.0
+2021,1,24,Buffalo,11.1
+2021,1,24,Kansas City,12.8
+2021,1,24,Las Vegas,16.6
+2021,1,24,Cleveland,19.6
+2021,1,24,Arizona,15.9
+2021,1,24,Chicago,12.0
+2021,1,24,Atlanta,13.7
+2021,1,24,Washington,23.5
+2021,1,24,Detroit,17.2
+2021,1,24,Minnesota,15.1
+2021,1,24,Dallas,7.1
+2021,1,24,Philadelphia,16.2
+2021,1,24,Carolina,22.8
+2021,1,24,LA Rams,15.2
+2021,1,24,San Francisco,13.9
+2021,1,24,New England,25.3
+2021,1,24,Houston,21.3
+2021,1,24,Cincinnati,8.5
+2021,1,24,Denver,13.4
+2021,1,24,LA Chargers,13.4
+2021,1,24,Jacksonville,19.1
+2021,1,24,NY Giants,48.0
+2021,1,24,NY Jets,12.6
+2021,1,17,Baltimore,8.2
+2021,1,17,Pittsburgh,14.9
+2021,1,17,Tampa Bay,11.7
+2021,1,17,Green Bay,13.2
+2021,1,17,Miami,13.6
+2021,1,17,Seattle,10.3
+2021,1,17,New Orleans,17.0
+2021,1,17,Tennessee,14.6
+2021,1,17,Indianapolis,10.4
+2021,1,17,Buffalo,12.8
+2021,1,17,Las Vegas,15.7
+2021,1,17,Kansas City,13.6
+2021,1,17,Cleveland,11.7
+2021,1,17,Arizona,15.0
+2021,1,17,Washington,8.4
+2021,1,17,Atlanta,18.8
+2021,1,17,Detroit,12.2
+2021,1,17,Chicago,11.4
+2021,1,17,Minnesota,23.9
+2021,1,17,Carolina,13.7
+2021,1,17,Philadelphia,17.2
+2021,1,17,LA Rams,13.3
+2021,1,17,New England,73.3
+2021,1,17,Houston,37.6
+2021,1,17,San Francisco,22.9
+2021,1,17,Dallas,9.1
+2021,1,17,NY Giants,22.7
+2021,1,17,Denver,11.4
+2021,1,17,LA Chargers,17.3
+2021,1,17,Jacksonville,35.4
+2021,1,17,Cincinnati,44.1
+2021,1,17,NY Jets,61.7
+2021,1,10,Pittsburgh,19.2
+2021,1,10,Green Bay,14.6
+2021,1,10,Tampa Bay,17.4
+2021,1,10,Miami,21.4
+2021,1,10,New Orleans,20.2
+2021,1,10,Baltimore,11.8
+2021,1,10,Tennessee,12.3
+2021,1,10,Seattle,27.3
+2021,1,10,Indianapolis,14.3
+2021,1,10,Las Vegas,14.2
+2021,1,10,Buffalo,13.2
+2021,1,10,Kansas City,20.3
+2021,1,10,Arizona,8.3
+2021,1,10,Cleveland,11.2
+2021,1,10,Atlanta,20.8
+2021,1,10,Minnesota,15.6
+2021,1,10,Washington,13.8
+2021,1,10,Detroit,13.5
+2021,1,10,New England,6.5
+2021,1,10,Philadelphia,17.4
+2021,1,10,Houston,19.9
+2021,1,10,Carolina,13.9
+2021,1,10,Chicago,13.0
+2021,1,10,San Francisco,16.8
+2021,1,10,LA Rams,12.2
+2021,1,10,Jacksonville,16.3
+2021,1,10,NY Giants,17.1
+2021,1,10,Cincinnati,28.0
+2021,1,10,Dallas,22.8
+2021,1,10,Denver,20.6
+2021,1,10,NY Jets,13.4
+2021,1,3,Pittsburgh,17.6
+2021,1,3,Miami,17.3
+2021,1,3,New Orleans,9.4
+2021,1,3,Green Bay,9.6
+2021,1,3,Seattle,13.1
+2021,1,3,Tampa Bay,17.4
+2021,1,3,Baltimore,15.6
+2021,1,3,Tennessee,10.0
+2021,1,3,Kansas City,20.1
+2021,1,3,Indianapolis,12.9
+2021,1,3,Las Vegas,40.5
+2021,1,3,Buffalo,12.3
+2021,1,3,Atlanta,7.1
+2021,1,3,Minnesota,13.8
+2021,1,3,Arizona,17.5
+2021,1,3,Cleveland,17.0
+2021,1,3,Houston,9.4
+2021,1,3,Washington,8.2
+2021,1,3,Philadelphia,14.7
+2021,1,3,Detroit,15.5
+2021,1,3,Carolina,13.9
+2021,1,3,San Francisco,15.0
+2021,1,3,Chicago,14.0
+2021,1,3,LA Chargers,21.6
+2021,1,3,Cincinnati,9.1
+2021,1,3,Jacksonville,15.0
+2021,1,3,NY Giants,20.3
+2021,1,3,LA Rams,15.4
+2021,1,3,Dallas,15.4
+2021,1,3,New England,9.0
+2021,1,3,Denver,37.3
+2021,1,3,NY Jets,86.7
+2020,12,27,Baltimore,10.2
+2020,12,27,Green Bay,12.1
+2020,12,27,Pittsburgh,14.4
+2020,12,27,Tampa Bay,12.5
+2020,12,27,New Orleans,11.2
+2020,12,27,Tennessee,10.1
+2020,12,27,Seattle,15.1
+2020,12,27,Miami,14.7
+2020,12,27,Indianapolis,13.0
+2020,12,27,Buffalo,11.1
+2020,12,27,Kansas City,12.8
+2020,12,27,Las Vegas,16.7
+2020,12,27,Cleveland,19.6
+2020,12,27,Chicago,12.0
+2020,12,27,Atlanta,13.7
+2020,12,27,Washington,23.5
+2020,12,27,Minnesota,11.0
+2020,12,27,Arizona,29.2
+2020,12,27,Dallas,7.1
+2020,12,27,Detroit,26.6
+2020,12,27,Philadelphia,16.2
+2020,12,27,Carolina,22.8
+2020,12,27,LA Rams,15.2
+2020,12,27,San Francisco,19.9
+2020,12,27,New England,25.3
+2020,12,27,Houston,21.3
+2020,12,27,Cincinnati,8.5
+2020,12,27,Denver,13.4
+2020,12,27,LA Chargers,13.4
+2020,12,27,Jacksonville,19.1
+2020,12,27,NY Giants,48.0
+2020,12,27,NY Jets,12.6
+2020,12,20,Baltimore,8.2
+2020,12,20,Pittsburgh,14.9
+2020,12,20,Green Bay,12.1
+2020,12,20,Tampa Bay,11.7
+2020,12,20,Miami,13.6
+2020,12,20,Seattle,10.3
+2020,12,20,New Orleans,17.0
+2020,12,20,Tennessee,14.6
+2020,12,20,Indianapolis,10.4
+2020,12,20,Buffalo,11.1
+2020,12,20,Kansas City,13.6
+2020,12,20,Las Vegas,16.6
+2020,12,20,Cleveland,11.7
+2020,12,20,Arizona,15.0
+2020,12,20,Washington,8.4
+2020,12,20,Atlanta,18.8
+2020,12,20,Detroit,12.2
+2020,12,20,Chicago,11.4
+2020,12,20,Minnesota,23.9
+2020,12,20,Philadelphia,17.2
+2020,12,20,Carolina,22.8
+2020,12,20,LA Rams,13.3
+2020,12,20,New England,73.3
+2020,12,20,Houston,37.6
+2020,12,20,San Francisco,22.9
+2020,12,20,Dallas,9.1
+2020,12,20,NY Giants,22.7
+2020,12,20,Denver,13.4
+2020,12,20,LA Chargers,13.4
+2020,12,20,Jacksonville,35.4
+2020,12,20,Cincinnati,44.1
+2020,12,20,NY Jets,61.7
+2020,12,13,Pittsburgh,19.2
+2020,12,13,Green Bay,14.6
+2020,12,13,Tampa Bay,17.4
+2020,12,13,Miami,21.4
+2020,12,13,New Orleans,20.2
+2020,12,13,Baltimore,11.8
+2020,12,13,Tennessee,12.3
+2020,12,13,Seattle,27.3
+2020,12,13,Indianapolis,14.3
+2020,12,13,Las Vegas,14.2
+2020,12,13,Buffalo,13.2
+2020,12,13,Kansas City,20.3
+2020,12,13,Arizona,8.3
+2020,12,13,Cleveland,11.2
+2020,12,13,Atlanta,20.8
+2020,12,13,Minnesota,15.6
+2020,12,13,Washington,13.8
+2020,12,13,Detroit,13.5
+2020,12,13,Philadelphia,17.4
+2020,12,13,Houston,19.9
+2020,12,13,Carolina,13.9
+2020,12,13,Chicago,13.0
+2020,12,13,San Francisco,16.8
+2020,12,13,LA Rams,13.3
+2020,12,13,New England,73.3
+2020,12,13,Jacksonville,16.3
+2020,12,13,NY Giants,17.1
+2020,12,13,Cincinnati,28.0
+2020,12,13,Dallas,22.8
+2020,12,13,Denver,20.6
+2020,12,13,NY Jets,13.4
+2020,12,6,Pittsburgh,17.6
+2020,12,6,Miami,17.3
+2020,12,6,New Orleans,9.4
+2020,12,6,Green Bay,9.6
+2020,12,6,Seattle,13.1
+2020,12,6,Tampa Bay,17.4
+2020,12,6,Baltimore,15.6
+2020,12,6,Tennessee,10.0
+2020,12,6,Kansas City,20.1
+2020,12,6,Indianapolis,12.9
+2020,12,6,Las Vegas,40.5
+2020,12,6,Buffalo,12.3
+2020,12,6,Atlanta,7.1
+2020,12,6,Minnesota,13.8
+2020,12,6,Arizona,17.5
+2020,12,6,Cleveland,17.0
+2020,12,6,Houston,9.4
+2020,12,6,Washington,8.2
+2020,12,6,Philadelphia,14.7
+2020,12,6,Detroit,15.5
+2020,12,6,Carolina,13.9
+2020,12,6,San Francisco,15.0
+2020,12,6,Chicago,14.0
+2020,12,6,LA Chargers,21.6
+2020,12,6,Cincinnati,9.1
+2020,12,6,Jacksonville,15.0
+2020,12,6,NY Giants,20.3
+2020,12,6,LA Rams,15.4
+2020,12,6,Dallas,15.4
+2020,12,6,New England,9.0
+2020,12,6,Denver,37.3
+2020,12,6,NY Jets,86.7
+2020,11,29,Baltimore,11.8
+2020,11,29,Tampa Bay,10.1
+2020,11,29,Pittsburgh,13.4
+2020,11,29,Green Bay,10.8
+2020,11,29,Seattle,16.8
+2020,11,29,Cleveland,10.8
+2020,11,29,Kansas City,6.7
+2020,11,29,Tennessee,12.2
+2020,11,29,New Orleans,15.4
+2020,11,29,Miami,12.6
+2020,11,29,Detroit,16.8
+2020,11,29,Las Vegas,17.4
+2020,11,29,Indianapolis,13.9
+2020,11,29,Arizona,14.0
+2020,11,29,Minnesota,15.9
+2020,11,29,San Francisco,14.2
+2020,11,29,Philadelphia,20.1
+2020,11,29,Buffalo,23.4
+2020,11,29,Atlanta,17.6
+2020,11,29,LA Rams,15.5
+2020,11,29,Washington,15.9
+2020,11,29,Houston,18.3
+2020,11,29,Cincinnati,13.8
+2020,11,29,Jacksonville,10.1
+2020,11,29,Chicago,27.9
+2020,11,29,Carolina,11.8
+2020,11,29,NY Giants,15.5
+2020,11,29,LA Chargers,12.4
+2020,11,29,Dallas,47.3
+2020,11,29,Denver,25.7
+2020,11,29,New England,40.2
+2020,11,29,NY Jets,19.0
+2020,11,22,Baltimore,11.8
+2020,11,22,Pittsburgh,7.3
+2020,11,22,Seattle,11.6
+2020,11,22,Tampa Bay,8.5
+2020,11,22,Green Bay,20.1
+2020,11,22,New Orleans,13.6
+2020,11,22,Tennessee,14.3
+2020,11,22,Detroit,11.9
+2020,11,22,Cleveland,31.4
+2020,11,22,Las Vegas,12.3
+2020,11,22,Miami,12.6
+2020,11,22,Indianapolis,13.9
+2020,11,22,Philadelphia,13.0
+2020,11,22,Buffalo,12.1
+2020,11,22,Kansas City,17.9
+2020,11,22,Minnesota,15.9
+2020,11,22,Arizona,11.5
+2020,11,22,Chicago,11.3
+2020,11,22,Atlanta,11.6
+2020,11,22,San Francisco,16.3
+2020,11,22,Houston,11.4
+2020,11,22,Denver,16.6
+2020,11,22,Washington,17.7
+2020,11,22,LA Rams,19.4
+2020,11,22,Cincinnati,14.7
+2020,11,22,Dallas,34.4
+2020,11,22,NY Giants,12.0
+2020,11,22,Carolina,18.9
+2020,11,22,Jacksonville,17.2
+2020,11,22,New England,24.0
+2020,11,22,LA Chargers,13.0
+2020,11,15,Baltimore,12.3
+2020,11,15,Seattle,11.6
+2020,11,15,Green Bay,13.4
+2020,11,15,New Orleans,13.6
+2020,11,15,Tennessee,8.0
+2020,11,15,Cleveland,12.0
+2020,11,15,Pittsburgh,9.7
+2020,11,15,Tampa Bay,17.8
+2020,11,15,Las Vegas,12.3
+2020,11,15,Miami,10.1
+2020,11,15,Detroit,9.7
+2020,11,15,Kansas City,12.9
+2020,11,15,Indianapolis,13.4
+2020,11,15,Minnesota,17.3
+2020,11,15,Philadelphia,11.6
+2020,11,15,Buffalo,23.1
+2020,11,15,San Francisco,15.2
+2020,11,15,Washington,10.8
+2020,11,15,LA Rams,14.3
+2020,11,15,Denver,9.7
+2020,11,15,Dallas,10.9
+2020,11,15,Chicago,12.2
+2020,11,15,Arizona,16.5
+2020,11,15,Atlanta,23.3
+2020,11,15,Cincinnati,68.3
+2020,11,15,Houston,16.2
+2020,11,15,New England,35.7
+2020,11,15,Carolina,19.0
+2020,11,15,Jacksonville,26.0
+2020,11,15,NY Giants,8.8
+2020,11,15,LA Chargers,13.0
+2020,11,15,NY Jets,28.5
+2020,11,8,Baltimore,11.3
+2020,11,8,Green Bay,13.4
+2020,11,8,Seattle,14.2
+2020,11,8,New Orleans,11.2
+2020,11,8,Tampa Bay,12.7
+2020,11,8,Cleveland,10.4
+2020,11,8,Buffalo,11.2
+2020,11,8,Detroit,9.7
+2020,11,8,Minnesota,13.2
+2020,11,8,Las Vegas,16.7
+2020,11,8,Kansas City,12.4
+2020,11,8,Indianapolis,15.2
+2020,11,8,Pittsburgh,13.8
+2020,11,8,San Francisco,20.9
+2020,11,8,Tennessee,14.3
+2020,11,8,Cincinnati,15.3
+2020,11,8,Miami,18.0
+2020,11,8,Atlanta,20.4
+2020,11,8,Denver,9.7
+2020,11,8,LA Rams,14.1
+2020,11,8,Arizona,12.5
+2020,11,8,Philadelphia,10.7
+2020,11,8,Washington,20.2
+2020,11,8,Jacksonville,17.2
+2020,11,8,Carolina,14.3
+2020,11,8,Chicago,24.5
+2020,11,8,Dallas,14.9
+2020,11,8,New England,35.7
+2020,11,8,Houston,16.8
+2020,11,8,NY Jets,11.5
+2020,11,8,LA Chargers,10.5
+2020,11,8,NY Giants,32.8
+2020,11,1,Seattle,10.8
+2020,11,1,Baltimore,11.4
+2020,11,1,Green Bay,10.0
+2020,11,1,Tampa Bay,12.6
+2020,11,1,New Orleans,13.2
+2020,11,1,Las Vegas,18.8
+2020,11,1,San Francisco,11.7
+2020,11,1,Minnesota,15.5
+2020,11,1,Indianapolis,9.8
+2020,11,1,Cleveland,8.8
+2020,11,1,Miami,9.5
+2020,11,1,Washington,15.5
+2020,11,1,Atlanta,14.3
+2020,11,1,Buffalo,10.7
+2020,11,1,New England,11.3
+2020,11,1,Kansas City,15.2
+2020,11,1,Pittsburgh,13.8
+2020,11,1,Cincinnati,13.2
+2020,11,1,Tennessee,14.3
+2020,11,1,Jacksonville,24.5
+2020,11,1,Chicago,14.6
+2020,11,1,Detroit,12.4
+2020,11,1,LA Rams,14.9
+2020,11,1,Arizona,16.4
+2020,11,1,Houston,12.4
+2020,11,1,Carolina,14.4
+2020,11,1,Dallas,16.8
+2020,11,1,Philadelphia,16.6
+2020,11,1,Denver,22.6
+2020,11,1,NY Jets,37.1
+2020,11,1,NY Giants,25.7
+2020,11,1,LA Chargers,27.3
+2020,10,25,Baltimore,11.8
+2020,10,25,Pittsburgh,7.3
+2020,10,25,Seattle,11.6
+2020,10,25,Tampa Bay,8.5
+2020,10,25,Green Bay,20.1
+2020,10,25,New Orleans,13.6
+2020,10,25,Tennessee,14.5
+2020,10,25,Detroit,11.9
+2020,10,25,Cleveland,31.4
+2020,10,25,Las Vegas,12.3
+2020,10,25,Miami,12.6
+2020,10,25,Indianapolis,13.9
+2020,10,25,Buffalo,12.1
+2020,10,25,Kansas City,17.9
+2020,10,25,Minnesota,15.9
+2020,10,25,Arizona,11.5
+2020,10,25,Chicago,11.3
+2020,10,25,Philadelphia,20.1
+2020,10,25,Atlanta,11.6
+2020,10,25,San Francisco,16.3
+2020,10,25,Houston,11.4
+2020,10,25,Denver,16.6
+2020,10,25,Washington,17.7
+2020,10,25,LA Rams,19.4
+2020,10,25,Cincinnati,14.7
+2020,10,25,Dallas,34.4
+2020,10,25,NY Giants,15.5
+2020,10,25,Carolina,18.9
+2020,10,25,Jacksonville,17.2
+2020,10,25,New England,24.0
+2020,10,25,LA Chargers,13.0
+2020,10,18,Baltimore,12.3
+2020,10,18,Seattle,11.6
+2020,10,18,Green Bay,13.4
+2020,10,18,New Orleans,13.6
+2020,10,18,Tennessee,8.0
+2020,10,18,Cleveland,12.0
+2020,10,18,Pittsburgh,9.7
+2020,10,18,Tampa Bay,17.8
+2020,10,18,Las Vegas,12.3
+2020,10,18,Miami,10.1
+2020,10,18,Detroit,9.7
+2020,10,18,Kansas City,12.9
+2020,10,18,Indianapolis,13.4
+2020,10,18,Minnesota,17.3
+2020,10,18,Philadelphia,11.6
+2020,10,18,Buffalo,23.1
+2020,10,18,San Francisco,15.2
+2020,10,18,Washington,10.8
+2020,10,18,LA Rams,14.3
+2020,10,18,Denver,9.7
+2020,10,18,Dallas,10.9
+2020,10,18,Chicago,12.2
+2020,10,18,Arizona,16.5
+2020,10,18,Atlanta,23.3
+2020,10,18,Cincinnati,68.3
+2020,10,18,Houston,16.2
+2020,10,18,New England,35.7
+2020,10,18,Carolina,19.0
+2020,10,18,Jacksonville,26.0
+2020,10,18,NY Giants,8.8
+2020,10,18,LA Chargers,13.0
+2020,10,18,NY Jets,28.5
+2020,10,11,Baltimore,11.3
+2020,10,11,Green Bay,13.4
+2020,10,11,Seattle,14.2
+2020,10,11,New Orleans,11.2
+2020,10,11,Cleveland,10.4
+2020,10,11,Tampa Bay,17.8
+2020,10,11,Buffalo,11.2
+2020,10,11,Detroit,9.7
+2020,10,11,Minnesota,13.2
+2020,10,11,Las Vegas,16.7
+2020,10,11,Kansas City,12.4
+2020,10,11,Indianapolis,15.2
+2020,10,11,Pittsburgh,13.8
+2020,10,11,San Francisco,20.9
+2020,10,11,Tennessee,14.3
+2020,10,11,Cincinnati,15.3
+2020,10,11,Miami,18.0
+2020,10,11,Atlanta,20.4
+2020,10,11,Denver,9.7
+2020,10,11,LA Rams,14.1
+2020,10,11,Arizona,12.5
+2020,10,11,Philadelphia,10.7
+2020,10,11,Washington,20.2
+2020,10,11,Chicago,12.2
+2020,10,11,Jacksonville,17.2
+2020,10,11,Carolina,14.3
+2020,10,11,Dallas,14.9
+2020,10,11,New England,35.7
+2020,10,11,Houston,16.8
+2020,10,11,NY Jets,11.5
+2020,10,11,LA Chargers,10.5
+2020,10,11,NY Giants,32.8
+2020,10,4,Seattle,10.8
+2020,10,4,Baltimore,11.4
+2020,10,4,Green Bay,10.0
+2020,10,4,Tampa Bay,12.6
+2020,10,4,New Orleans,13.2
+2020,10,4,Las Vegas,18.8
+2020,10,4,San Francisco,11.7
+2020,10,4,Minnesota,15.5
+2020,10,4,Indianapolis,9.8
+2020,10,4,Cleveland,8.8
+2020,10,4,Miami,9.5
+2020,10,4,Washington,15.5
+2020,10,4,Atlanta,14.3
+2020,10,4,Buffalo,10.7
+2020,10,4,New England,11.3
+2020,10,4,Kansas City,15.2
+2020,10,4,Pittsburgh,13.8
+2020,10,4,Cincinnati,13.2
+2020,10,4,Tennessee,14.3
+2020,10,4,Jacksonville,24.5
+2020,10,4,Chicago,14.6
+2020,10,4,Denver,9.7
+2020,10,4,Detroit,12.4
+2020,10,4,LA Rams,14.9
+2020,10,4,Arizona,16.4
+2020,10,4,Houston,12.4
+2020,10,4,Carolina,14.4
+2020,10,4,Dallas,16.8
+2020,10,4,Philadelphia,16.6
+2020,10,4,NY Jets,11.5
+2020,10,4,NY Giants,25.7
+2020,10,4,LA Chargers,27.3
+2020,9,27,Las Vegas,11.1
+2020,9,27,Baltimore,12.3
+2020,9,27,Seattle,12.3
+2020,9,27,Green Bay,11.6
+2020,9,27,New Orleans,17.7
+2020,9,27,Tampa Bay,10.9
+2020,9,27,Minnesota,15.9
+2020,9,27,Washington,21.1
+2020,9,27,Kansas City,18.0
+2020,9,27,Atlanta,9.7
+2020,9,27,Miami,9.5
+2020,9,27,San Francisco,11.6
+2020,9,27,Pittsburgh,15.8
+2020,9,27,Jacksonville,24.5
+2020,9,27,Tennessee,10.7
+2020,9,27,Cincinnati,11.8
+2020,9,27,Chicago,17.9
+2020,9,27,LA Rams,12.1
+2020,9,27,Arizona,14.6
+2020,9,27,Buffalo,16.9
+2020,9,27,New England,15.5
+2020,9,27,Indianapolis,12.6
+2020,9,27,Detroit,14.6
+2020,9,27,Dallas,14.3
+2020,9,27,Carolina,25.1
+2020,9,27,Philadelphia,19.1
+2020,9,27,NY Jets,21.3
+2020,9,27,Cleveland,12.4
+2020,9,27,Denver,15.2
+2020,9,27,Houston,19.0
+2020,9,27,NY Giants,22.7
+2020,9,27,LA Chargers,24.0
+2020,9,20,New Orleans,8.0
+2020,9,20,Washington,8.9
+2020,9,20,Jacksonville,8.9
+2020,9,20,Baltimore,10.0
+2020,9,20,Seattle,10.1
+2020,9,20,Kansas City,10.9
+2020,9,20,Las Vegas,10.9
+2020,9,20,Minnesota,11.2
+2020,9,20,Green Bay,12.1
+2020,9,20,Carolina,12.9
+2020,9,20,Pittsburgh,13.4
+2020,9,20,Chicago,13.4
+2020,9,20,Tampa Bay,13.5
+2020,9,20,NY Jets,14.9
+2020,9,20,Buffalo,15.0
+2020,9,20,Cincinnati,11.8
+2020,9,20,Philadelphia,15.6
+2020,9,20,Arizona,16.8
+2020,9,20,New England,17.0
+2020,9,20,Houston,18.0
+2020,9,20,Cleveland,12.4
+2020,9,20,NY Giants,18.2
+2020,9,20,San Francisco,18.3
+2020,9,20,Detroit,18.5
+2020,9,20,Atlanta,20.2
+2020,9,20,LA Rams,21.1
+2020,9,20,Indianapolis,22.3
+2020,9,20,Dallas,22.4
+2020,9,20,LA Chargers,22.6
+2020,9,20,Denver,23.1
+2020,9,20,Tennessee,23.6
+2020,9,20,Miami,24.5
+2020,9,13,Kansas City,10.9
+2020,9,13,Houston,18.0
+2020,9,6,San Francisco,17.6
+2020,9,6,Kansas City,12.8
+2020,9,6,Baltimore,44.2
+2020,9,6,New Orleans,16.2
+2020,9,6,New England,23.6
+2020,9,6,Tampa Bay,15.0
+2020,9,6,Minnesota,14.7
+2020,9,6,Tennessee,12.3
+2020,9,6,Indianapolis,13.8
+2020,9,6,Green Bay,17.9
+2020,9,6,Arizona,16.4
+2020,9,6,Seattle,16.3
+2020,9,6,LA Rams,13.7
+2020,9,6,Houston,14.3
+2020,9,6,Pittsburgh,16.8
+2020,9,6,Philadelphia,31.3
+2020,9,6,NY Jets,20.8
+2020,9,6,NY Giants,23.4
+2020,9,6,Dallas,11.0
+2020,9,6,Atlanta,13.3
+2020,9,6,Carolina,32.9
+2020,9,6,Miami,14.4
+2020,9,6,Detroit,15.3
+2020,9,6,Cleveland,13.6
+2020,9,6,Washington,16.9
+2020,9,6,Denver,14.9
+2020,9,6,Chicago,16.0
+2020,9,6,Buffalo,22.4
+2020,9,6,LA Chargers,17.4
+2020,9,6,Jacksonville,9.3
+2020,9,6,Cincinnati,10.9
+2020,9,6,Las Vegas,31.8
+2020,2,23,San Francisco,17.6
+2020,2,23,Kansas City,12.8
+2020,2,23,Baltimore,44.2
+2020,2,23,New Orleans,16.2
+2020,2,23,New England,23.6
+2020,2,23,Tampa Bay,15.0
+2020,2,23,Minnesota,14.7
+2020,2,23,Tennessee,12.3
+2020,2,23,Indianapolis,13.8
+2020,2,23,Green Bay,17.9
+2020,2,23,Arizona,16.4
+2020,2,23,Seattle,16.3
+2020,2,23,LA Rams,13.7
+2020,2,23,Houston,14.3
+2020,2,23,Pittsburgh,16.8
+2020,2,23,Philadelphia,31.3
+2020,2,23,NY Jets,20.8
+2020,2,23,NY Giants,23.4
+2020,2,23,Dallas,11.0
+2020,2,23,Atlanta,13.3
+2020,2,23,Carolina,32.9
+2020,2,23,Miami,14.4
+2020,2,23,Detroit,15.3
+2020,2,23,Cleveland,13.6
+2020,2,23,Washington,16.9
+2020,2,23,Denver,14.9
+2020,2,23,Chicago,16.0
+2020,2,23,Buffalo,22.4
+2020,2,23,LA Chargers,17.4
+2020,2,23,Jacksonville,9.3
+2020,2,23,Cincinnati,10.9
+2020,2,23,Las Vegas,31.8
+2020,2,16,San Francisco,17.6
+2020,2,16,Kansas City,12.8
+2020,2,16,Baltimore,44.2
+2020,2,16,New Orleans,16.2
+2020,2,16,New England,23.6
+2020,2,16,Tampa Bay,15.0
+2020,2,16,Minnesota,14.7
+2020,2,16,Tennessee,12.3
+2020,2,16,Indianapolis,13.8
+2020,2,16,Green Bay,17.9
+2020,2,16,Arizona,16.4
+2020,2,16,Seattle,16.3
+2020,2,16,LA Rams,13.7
+2020,2,16,Houston,14.3
+2020,2,16,Pittsburgh,16.8
+2020,2,16,Philadelphia,31.3
+2020,2,16,NY Jets,20.8
+2020,2,16,NY Giants,23.4
+2020,2,16,Dallas,11.0
+2020,2,16,Atlanta,13.3
+2020,2,16,Carolina,32.9
+2020,2,16,Miami,14.4
+2020,2,16,Detroit,15.3
+2020,2,16,Cleveland,13.6
+2020,2,16,Washington,16.9
+2020,2,16,Denver,14.9
+2020,2,16,Chicago,16.0
+2020,2,16,Buffalo,22.4
+2020,2,16,LA Chargers,17.4
+2020,2,16,Jacksonville,9.3
+2020,2,16,Cincinnati,10.9
+2020,2,16,Las Vegas,31.8
+2020,2,9,San Francisco,17.6
+2020,2,9,Kansas City,12.8
+2020,2,9,Baltimore,44.2
+2020,2,9,New Orleans,16.2
+2020,2,9,New England,23.6
+2020,2,9,Tampa Bay,15.0
+2020,2,9,Minnesota,14.7
+2020,2,9,Tennessee,12.3
+2020,2,9,Indianapolis,13.8
+2020,2,9,Green Bay,17.9
+2020,2,9,Arizona,16.4
+2020,2,9,Seattle,16.3
+2020,2,9,LA Rams,13.7
+2020,2,9,Houston,14.3
+2020,2,9,Pittsburgh,16.8
+2020,2,9,Philadelphia,31.3
+2020,2,9,NY Jets,20.8
+2020,2,9,NY Giants,23.4
+2020,2,9,Dallas,11.0
+2020,2,9,Atlanta,13.3
+2020,2,9,Carolina,32.9
+2020,2,9,Miami,14.4
+2020,2,9,Detroit,15.3
+2020,2,9,Cleveland,13.6
+2020,2,9,Washington,16.9
+2020,2,9,Denver,14.9
+2020,2,9,Chicago,16.0
+2020,2,9,Buffalo,22.4
+2020,2,9,LA Chargers,17.4
+2020,2,9,Jacksonville,9.3
+2020,2,9,Cincinnati,10.9
+2020,2,9,Las Vegas,31.8
+2020,2,2,San Francisco,9.6
+2020,2,2,Kansas City,11.5
+2020,2,2,Baltimore,44.2
+2020,2,2,New Orleans,16.2
+2020,2,2,New England,23.6
+2020,2,2,Tampa Bay,15.0
+2020,2,2,Minnesota,14.7
+2020,2,2,Tennessee,12.3
+2020,2,2,Indianapolis,13.8
+2020,2,2,Green Bay,17.9
+2020,2,2,Arizona,16.4
+2020,2,2,Seattle,16.3
+2020,2,2,LA Rams,13.7
+2020,2,2,Houston,14.3
+2020,2,2,Pittsburgh,16.8
+2020,2,2,Philadelphia,31.3
+2020,2,2,NY Jets,20.8
+2020,2,2,NY Giants,23.4
+2020,2,2,Dallas,11.0
+2020,2,2,Atlanta,13.3
+2020,2,2,Carolina,32.9
+2020,2,2,Miami,14.4
+2020,2,2,Detroit,15.3
+2020,2,2,Cleveland,13.6
+2020,2,2,Washington,16.9
+2020,2,2,Denver,14.9
+2020,2,2,Chicago,16.0
+2020,2,2,Buffalo,22.4
+2020,2,2,LA Chargers,17.4
+2020,2,2,Jacksonville,9.3
+2020,2,2,Cincinnati,10.9
+2020,2,2,Las Vegas,31.8
+2020,1,26,San Francisco,9.6
+2020,1,26,Kansas City,11.5
+2020,1,26,Baltimore,44.2
+2020,1,26,New Orleans,16.2
+2020,1,26,New England,23.6
+2020,1,26,Tampa Bay,15.0
+2020,1,26,Minnesota,14.7
+2020,1,26,Tennessee,12.3
+2020,1,26,Indianapolis,13.8
+2020,1,26,Green Bay,17.9
+2020,1,26,Arizona,16.4
+2020,1,26,Seattle,16.3
+2020,1,26,LA Rams,13.7
+2020,1,26,Houston,14.3
+2020,1,26,Pittsburgh,16.8
+2020,1,26,Philadelphia,31.3
+2020,1,26,NY Jets,20.8
+2020,1,26,NY Giants,23.4
+2020,1,26,Dallas,11.0
+2020,1,26,Atlanta,13.3
+2020,1,26,Carolina,32.9
+2020,1,26,Miami,14.4
+2020,1,26,Detroit,15.3
+2020,1,26,Cleveland,13.6
+2020,1,26,Washington,16.9
+2020,1,26,Denver,14.9
+2020,1,26,Chicago,16.0
+2020,1,26,Buffalo,22.4
+2020,1,26,LA Chargers,17.4
+2020,1,26,Jacksonville,9.3
+2020,1,26,Cincinnati,10.9
+2020,1,26,Las Vegas,31.8
+2020,1,19,San Francisco,11.4
+2020,1,19,Kansas City,8.5
+2020,1,19,Baltimore,44.2
+2020,1,19,New Orleans,16.2
+2020,1,19,New England,23.6
+2020,1,19,Tampa Bay,15.0
+2020,1,19,Minnesota,14.7
+2020,1,19,Tennessee,10.7
+2020,1,19,Indianapolis,13.8
+2020,1,19,Green Bay,12.3
+2020,1,19,Arizona,16.4
+2020,1,19,Seattle,16.3
+2020,1,19,LA Rams,13.7
+2020,1,19,Houston,14.3
+2020,1,19,Pittsburgh,16.8
+2020,1,19,Philadelphia,31.3
+2020,1,19,NY Jets,20.8
+2020,1,19,NY Giants,23.4
+2020,1,19,Dallas,11.0
+2020,1,19,Atlanta,13.3
+2020,1,19,Carolina,32.9
+2020,1,19,Miami,14.4
+2020,1,19,Detroit,15.3
+2020,1,19,Cleveland,13.6
+2020,1,19,Washington,16.9
+2020,1,19,Denver,14.9
+2020,1,19,Chicago,16.0
+2020,1,19,Buffalo,22.4
+2020,1,19,LA Chargers,17.4
+2020,1,19,Jacksonville,9.3
+2020,1,19,Cincinnati,10.9
+2020,1,19,Las Vegas,31.8
+2020,1,12,San Francisco,11.4
+2020,1,12,Baltimore,44.2
+2020,1,12,New Orleans,16.2
+2020,1,12,Kansas City,10.8
+2020,1,12,New England,23.6
+2020,1,12,Tampa Bay,15.0
+2020,1,12,Minnesota,14.7
+2020,1,12,Tennessee,10.7
+2020,1,12,Indianapolis,13.8
+2020,1,12,Green Bay,18.8
+2020,1,12,Seattle,22.5
+2020,1,12,Arizona,16.4
+2020,1,12,LA Rams,13.7
+2020,1,12,Pittsburgh,16.8
+2020,1,12,Philadelphia,31.3
+2020,1,12,Houston,16.4
+2020,1,12,NY Jets,20.8
+2020,1,12,NY Giants,23.4
+2020,1,12,Dallas,11.0
+2020,1,12,Atlanta,13.3
+2020,1,12,Carolina,32.9
+2020,1,12,Miami,14.4
+2020,1,12,Detroit,15.3
+2020,1,12,Cleveland,13.6
+2020,1,12,Washington,16.9
+2020,1,12,Chicago,16.0
+2020,1,12,Denver,14.9
+2020,1,12,Buffalo,22.4
+2020,1,12,LA Chargers,17.4
+2020,1,12,Jacksonville,9.3
+2020,1,12,Cincinnati,10.9
+2020,1,12,Las Vegas,31.8
+2020,1,5,Baltimore,10.9
+2020,1,5,San Francisco,15.3
+2020,1,5,New Orleans,9.0
+2020,1,5,Kansas City,10.8
+2020,1,5,New England,23.6
+2020,1,5,Minnesota,15.8
+2020,1,5,Tampa Bay,15.0
+2020,1,5,Tennessee,13.6
+2020,1,5,Indianapolis,13.8
+2020,1,5,Green Bay,18.8
+2020,1,5,Seattle,16.6
+2020,1,5,Philadelphia,11.8
+2020,1,5,Arizona,16.4
+2020,1,5,LA Rams,13.7
+2020,1,5,Pittsburgh,16.8
+2020,1,5,Houston,16.4
+2020,1,5,NY Jets,20.8
+2020,1,5,NY Giants,23.4
+2020,1,5,Dallas,11.0
+2020,1,5,Atlanta,13.3
+2020,1,5,Carolina,32.9
+2020,1,5,Miami,14.4
+2020,1,5,Detroit,15.3
+2020,1,5,Cleveland,13.6
+2020,1,5,Washington,16.9
+2020,1,5,Chicago,16.0
+2020,1,5,Denver,14.9
+2020,1,5,Buffalo,22.4
+2020,1,5,LA Chargers,17.4
+2020,1,5,Jacksonville,9.3
+2020,1,5,Cincinnati,10.9
+2020,1,5,Las Vegas,31.8
+2019,12,29,Baltimore,10.7
+2019,12,29,San Francisco,9.2
+2019,12,29,New England,21.7
+2019,12,29,Tampa Bay,12.7
+2019,12,29,Kansas City,12.9
+2019,12,29,Minnesota,11.9
+2019,12,29,Seattle,20.5
+2019,12,29,New Orleans,10.7
+2019,12,29,NY Jets,11.8
+2019,12,29,Green Bay,24.8
+2019,12,29,Pittsburgh,21.1
+2019,12,29,Carolina,11.3
+2019,12,29,Tennessee,11.2
+2019,12,29,Arizona,10.2
+2019,12,29,Indianapolis,17.4
+2019,12,29,Philadelphia,38.2
+2019,12,29,LA Rams,36.8
+2019,12,29,Houston,19.8
+2019,12,29,Chicago,17.5
+2019,12,29,NY Giants,17.4
+2019,12,29,Detroit,18.2
+2019,12,29,Buffalo,13.7
+2019,12,29,Cleveland,11.4
+2019,12,29,Dallas,28.4
+2019,12,29,Atlanta,19.3
+2019,12,29,Las Vegas,69.3
+2019,12,29,LA Chargers,25.8
+2019,12,29,Miami,11.8
+2019,12,29,Denver,44.7
+2019,12,29,Washington,12.1
+2019,12,29,Jacksonville,18.5
+2019,12,29,Cincinnati,24.4
+2019,12,22,New England,17.5
+2019,12,22,Baltimore,12.0
+2019,12,22,San Francisco,12.3
+2019,12,22,Tampa Bay,19.6
+2019,12,22,Kansas City,12.9
+2019,12,22,Seattle,12.4
+2019,12,22,Pittsburgh,33.7
+2019,12,22,Green Bay,16.2
+2019,12,22,Minnesota,11.9
+2019,12,22,Philadelphia,25.5
+2019,12,22,LA Rams,16.6
+2019,12,22,NY Jets,11.8
+2019,12,22,Carolina,115.7
+2019,12,22,Arizona,10.2
+2019,12,22,New Orleans,9.6
+2019,12,22,Indianapolis,17.4
+2019,12,22,Chicago,38.1
+2019,12,22,Dallas,14.5
+2019,12,22,Detroit,11.6
+2019,12,22,Tennessee,10.6
+2019,12,22,Houston,19.8
+2019,12,22,NY Giants,10.4
+2019,12,22,Buffalo,11.5
+2019,12,22,Las Vegas,22.7
+2019,12,22,Atlanta,12.0
+2019,12,22,LA Chargers,25.8
+2019,12,22,Cleveland,14.0
+2019,12,22,Denver,17.1
+2019,12,22,Miami,15.2
+2019,12,22,Jacksonville,23.7
+2019,12,22,Washington,13.2
+2019,12,22,Cincinnati,24.6
+2019,12,15,New England,17.1
+2019,12,15,Baltimore,7.7
+2019,12,15,San Francisco,12.6
+2019,12,15,Tampa Bay,15.2
+2019,12,15,Carolina,25.1
+2019,12,15,Philadelphia,17.0
+2019,12,15,Seattle,12.4
+2019,12,15,Pittsburgh,33.7
+2019,12,15,Green Bay,16.2
+2019,12,15,Kansas City,16.6
+2019,12,15,Chicago,11.3
+2019,12,15,Minnesota,13.0
+2019,12,15,LA Rams,25.5
+2019,12,15,Houston,15.8
+2019,12,15,Dallas,18.5
+2019,12,15,Indianapolis,25.0
+2019,12,15,Tennessee,10.6
+2019,12,15,Arizona,15.4
+2019,12,15,NY Giants,10.4
+2019,12,15,Las Vegas,10.7
+2019,12,15,NY Jets,8.6
+2019,12,15,Detroit,27.5
+2019,12,15,New Orleans,34.4
+2019,12,15,LA Chargers,13.1
+2019,12,15,Buffalo,21.5
+2019,12,15,Atlanta,12.2
+2019,12,15,Cleveland,14.0
+2019,12,15,Denver,12.6
+2019,12,15,Jacksonville,118.7
+2019,12,15,Miami,14.3
+2019,12,15,Cincinnati,23.6
+2019,12,15,Washington,27.0
+2019,12,8,New England,17.1
+2019,12,8,Carolina,12.3
+2019,12,8,Tampa Bay,12.3
+2019,12,8,Pittsburgh,10.5
+2019,12,8,San Francisco,14.7
+2019,12,8,Baltimore,10.1
+2019,12,8,Philadelphia,17.0
+2019,12,8,Kansas City,14.5
+2019,12,8,Green Bay,16.7
+2019,12,8,Seattle,12.3
+2019,12,8,LA Rams,19.6
+2019,12,8,Minnesota,13.4
+2019,12,8,Houston,15.8
+2019,12,8,Chicago,11.7
+2019,12,8,Indianapolis,13.7
+2019,12,8,Detroit,19.7
+2019,12,8,Dallas,11.6
+2019,12,8,New Orleans,16.5
+2019,12,8,Arizona,14.3
+2019,12,8,Las Vegas,10.7
+2019,12,8,NY Giants,15.1
+2019,12,8,Tennessee,21.6
+2019,12,8,Buffalo,11.2
+2019,12,8,LA Chargers,13.1
+2019,12,8,Cleveland,18.5
+2019,12,8,NY Jets,17.8
+2019,12,8,Atlanta,25.5
+2019,12,8,Denver,12.6
+2019,12,8,Jacksonville,118.7
+2019,12,8,Miami,12.2
+2019,12,8,Cincinnati,40.1
+2019,12,8,Washington,27.0
+2019,12,1,New England,11.8
+2019,12,1,Carolina,17.7
+2019,12,1,Tampa Bay,16.9
+2019,12,1,San Francisco,14.7
+2019,12,1,Philadelphia,12.0
+2019,12,1,Pittsburgh,14.6
+2019,12,1,Kansas City,14.0
+2019,12,1,Green Bay,12.1
+2019,12,1,Baltimore,11.3
+2019,12,1,LA Rams,19.6
+2019,12,1,Seattle,11.9
+2019,12,1,Detroit,12.1
+2019,12,1,Houston,14.4
+2019,12,1,Minnesota,22.8
+2019,12,1,Indianapolis,21.2
+2019,12,1,Chicago,24.3
+2019,12,1,New Orleans,16.5
+2019,12,1,Arizona,14.3
+2019,12,1,Dallas,10.9
+2019,12,1,Tennessee,9.1
+2019,12,1,NY Giants,14.2
+2019,12,1,Las Vegas,15.8
+2019,12,1,Jacksonville,13.4
+2019,12,1,LA Chargers,13.6
+2019,12,1,Buffalo,19.5
+2019,12,1,Cleveland,23.8
+2019,12,1,Atlanta,25.5
+2019,12,1,NY Jets,14.2
+2019,12,1,Denver,21.5
+2019,12,1,Cincinnati,40.1
+2019,12,1,Washington,24.0
+2019,12,1,Miami,16.4
+2019,11,24,New England,17.5
+2019,11,24,Baltimore,12.0
+2019,11,24,San Francisco,12.3
+2019,11,24,Tampa Bay,19.6
+2019,11,24,Kansas City,12.9
+2019,11,24,Seattle,12.4
+2019,11,24,Pittsburgh,33.7
+2019,11,24,Green Bay,16.2
+2019,11,24,Minnesota,11.9
+2019,11,24,Philadelphia,25.5
+2019,11,24,LA Rams,16.6
+2019,11,24,NY Jets,11.8
+2019,11,24,Carolina,115.7
+2019,11,24,Arizona,10.2
+2019,11,24,New Orleans,9.6
+2019,11,24,Indianapolis,17.4
+2019,11,24,Chicago,38.1
+2019,11,24,Dallas,14.5
+2019,11,24,Detroit,11.6
+2019,11,24,Tennessee,10.6
+2019,11,24,Houston,19.8
+2019,11,24,NY Giants,10.4
+2019,11,24,Buffalo,11.5
+2019,11,24,Las Vegas,22.7
+2019,11,24,Atlanta,12.0
+2019,11,24,LA Chargers,25.8
+2019,11,24,Cleveland,14.0
+2019,11,24,Denver,17.1
+2019,11,24,Miami,15.2
+2019,11,24,Jacksonville,23.7
+2019,11,24,Washington,13.2
+2019,11,24,Cincinnati,24.6
+2019,11,17,New England,17.1
+2019,11,17,Baltimore,7.7
+2019,11,17,San Francisco,12.6
+2019,11,17,Tampa Bay,15.2
+2019,11,17,Carolina,25.1
+2019,11,17,Philadelphia,17.0
+2019,11,17,Seattle,12.4
+2019,11,17,Pittsburgh,33.7
+2019,11,17,Green Bay,16.2
+2019,11,17,Kansas City,16.6
+2019,11,17,Chicago,11.3
+2019,11,17,Minnesota,13.0
+2019,11,17,LA Rams,25.5
+2019,11,17,Houston,15.8
+2019,11,17,Dallas,18.5
+2019,11,17,Indianapolis,25.0
+2019,11,17,Tennessee,10.6
+2019,11,17,Arizona,15.4
+2019,11,17,NY Giants,10.4
+2019,11,17,Las Vegas,10.7
+2019,11,17,NY Jets,8.6
+2019,11,17,Detroit,27.5
+2019,11,17,New Orleans,34.4
+2019,11,17,LA Chargers,13.1
+2019,11,17,Buffalo,21.5
+2019,11,17,Atlanta,12.2
+2019,11,17,Cleveland,14.0
+2019,11,17,Denver,12.6
+2019,11,17,Jacksonville,118.7
+2019,11,17,Miami,14.3
+2019,11,17,Cincinnati,23.6
+2019,11,17,Washington,27.0
+2019,11,10,New England,17.1
+2019,11,10,Carolina,12.3
+2019,11,10,Tampa Bay,12.3
+2019,11,10,Pittsburgh,10.5
+2019,11,10,San Francisco,14.7
+2019,11,10,Baltimore,10.1
+2019,11,10,Philadelphia,17.0
+2019,11,10,Kansas City,14.5
+2019,11,10,Green Bay,16.7
+2019,11,10,Seattle,12.3
+2019,11,10,LA Rams,19.6
+2019,11,10,Minnesota,13.4
+2019,11,10,Houston,15.8
+2019,11,10,Chicago,11.7
+2019,11,10,Indianapolis,13.7
+2019,11,10,Detroit,19.7
+2019,11,10,Dallas,11.6
+2019,11,10,New Orleans,16.5
+2019,11,10,Arizona,14.3
+2019,11,10,Las Vegas,10.7
+2019,11,10,NY Giants,15.1
+2019,11,10,Tennessee,21.6
+2019,11,10,Buffalo,11.2
+2019,11,10,LA Chargers,13.1
+2019,11,10,Cleveland,18.5
+2019,11,10,NY Jets,17.8
+2019,11,10,Atlanta,25.5
+2019,11,10,Denver,12.6
+2019,11,10,Jacksonville,118.7
+2019,11,10,Miami,12.2
+2019,11,10,Cincinnati,40.1
+2019,11,10,Washington,27.0
+2019,11,3,New England,11.8
+2019,11,3,Carolina,17.7
+2019,11,3,Tampa Bay,16.9
+2019,11,3,San Francisco,14.7
+2019,11,3,Philadelphia,12.0
+2019,11,3,Pittsburgh,14.6
+2019,11,3,Kansas City,14.0
+2019,11,3,Green Bay,12.1
+2019,11,3,Baltimore,11.3
+2019,11,3,LA Rams,19.6
+2019,11,3,Seattle,11.9
+2019,11,3,Detroit,12.1
+2019,11,3,Houston,14.4
+2019,11,3,Minnesota,22.8
+2019,11,3,Indianapolis,21.2
+2019,11,3,Chicago,24.3
+2019,11,3,New Orleans,16.5
+2019,11,3,Arizona,14.3
+2019,11,3,Dallas,10.9
+2019,11,3,Tennessee,9.1
+2019,11,3,NY Giants,14.2
+2019,11,3,Las Vegas,15.8
+2019,11,3,Jacksonville,13.4
+2019,11,3,LA Chargers,13.6
+2019,11,3,Buffalo,19.5
+2019,11,3,Cleveland,23.8
+2019,11,3,Atlanta,25.5
+2019,11,3,NY Jets,14.2
+2019,11,3,Denver,21.5
+2019,11,3,Cincinnati,40.1
+2019,11,3,Washington,24.0
+2019,11,3,Miami,16.4
+2019,10,27,New England,9.8
+2019,10,27,Tampa Bay,15.7
+2019,10,27,Carolina,7.2
+2019,10,27,Pittsburgh,10.7
+2019,10,27,LA Rams,10.3
+2019,10,27,Kansas City,9.0
+2019,10,27,Philadelphia,28.3
+2019,10,27,Chicago,10.1
+2019,10,27,Green Bay,11.5
+2019,10,27,Baltimore,11.3
+2019,10,27,Indianapolis,12.8
+2019,10,27,San Francisco,31.4
+2019,10,27,Houston,17.0
+2019,10,27,Minnesota,22.8
+2019,10,27,Seattle,21.7
+2019,10,27,New Orleans,11.8
+2019,10,27,Detroit,14.4
+2019,10,27,Arizona,9.1
+2019,10,27,Dallas,10.9
+2019,10,27,NY Giants,12.5
+2019,10,27,Las Vegas,20.2
+2019,10,27,Cleveland,14.5
+2019,10,27,Tennessee,17.5
+2019,10,27,Atlanta,22.4
+2019,10,27,Buffalo,9.8
+2019,10,27,LA Chargers,18.3
+2019,10,27,Jacksonville,17.0
+2019,10,27,Cincinnati,17.1
+2019,10,27,Denver,34.2
+2019,10,27,Washington,24.0
+2019,10,27,Miami,18.1
+2019,10,20,New England,12.2
+2019,10,20,Tampa Bay,15.7
+2019,10,20,Carolina,7.2
+2019,10,20,Philadelphia,20.0
+2019,10,20,Pittsburgh,10.7
+2019,10,20,Kansas City,9.0
+2019,10,20,San Francisco,16.6
+2019,10,20,Seattle,14.2
+2019,10,20,LA Rams,22.4
+2019,10,20,Baltimore,21.6
+2019,10,20,Houston,15.2
+2019,10,20,Minnesota,11.8
+2019,10,20,Green Bay,19.4
+2019,10,20,Indianapolis,17.4
+2019,10,20,Chicago,11.2
+2019,10,20,Detroit,13.6
+2019,10,20,New Orleans,25.1
+2019,10,20,Arizona,13.0
+2019,10,20,Las Vegas,16.6
+2019,10,20,Atlanta,13.5
+2019,10,20,Dallas,18.1
+2019,10,20,NY Jets,15.9
+2019,10,20,Cleveland,14.5
+2019,10,20,NY Giants,15.2
+2019,10,20,LA Chargers,20.5
+2019,10,20,Jacksonville,37.7
+2019,10,20,Cincinnati,14.7
+2019,10,20,Washington,18.3
+2019,10,20,Denver,34.2
+2019,10,20,Buffalo,22.4
+2019,10,20,Miami,16.9
+2019,10,13,Philadelphia,8.5
+2019,10,13,New England,12.2
+2019,10,13,Tampa Bay,10.5
+2019,10,13,San Francisco,14.4
+2019,10,13,Baltimore,10.7
+2019,10,13,LA Rams,16.4
+2019,10,13,Green Bay,9.9
+2019,10,13,Pittsburgh,11.7
+2019,10,13,Carolina,13.1
+2019,10,13,Houston,11.2
+2019,10,13,Seattle,14.3
+2019,10,13,Kansas City,24.9
+2019,10,13,New Orleans,14.7
+2019,10,13,Indianapolis,17.4
+2019,10,13,Chicago,11.2
+2019,10,13,Tennessee,36.0
+2019,10,13,Minnesota,17.5
+2019,10,13,Detroit,14.9
+2019,10,13,Las Vegas,16.6
+2019,10,13,Dallas,23.5
+2019,10,13,Jacksonville,18.8
+2019,10,13,LA Chargers,18.9
+2019,10,13,Arizona,19.8
+2019,10,13,NY Giants,15.2
+2019,10,13,NY Jets,21.3
+2019,10,13,Cleveland,60.0
+2019,10,13,Atlanta,11.7
+2019,10,13,Washington,31.9
+2019,10,13,Denver,17.5
+2019,10,13,Cincinnati,16.1
+2019,10,13,Buffalo,22.4
+2019,10,13,Miami,23.3
+2019,10,6,New England,14.0
+2019,10,6,Tampa Bay,8.4
+2019,10,6,Philadelphia,9.9
+2019,10,6,San Francisco,18.2
+2019,10,6,Kansas City,12.9
+2019,10,6,Tennessee,15.2
+2019,10,6,LA Rams,16.4
+2019,10,6,Baltimore,15.8
+2019,10,6,Seattle,14.3
+2019,10,6,Indianapolis,14.4
+2019,10,6,Carolina,18.6
+2019,10,6,Pittsburgh,12.1
+2019,10,6,New Orleans,22.2
+2019,10,6,Minnesota,37.0
+2019,10,6,Green Bay,18.2
+2019,10,6,Dallas,25.7
+2019,10,6,Detroit,14.9
+2019,10,6,Chicago,16.8
+2019,10,6,Houston,26.4
+2019,10,6,Las Vegas,12.2
+2019,10,6,Cleveland,13.3
+2019,10,6,Jacksonville,17.5
+2019,10,6,Arizona,32.1
+2019,10,6,NY Jets,7.5
+2019,10,6,LA Chargers,13.0
+2019,10,6,Washington,58.7
+2019,10,6,NY Giants,16.2
+2019,10,6,Denver,15.5
+2019,10,6,Buffalo,37.5
+2019,10,6,Cincinnati,58.3
+2019,10,6,Atlanta,42.2
+2019,10,6,Miami,23.3
+2019,9,29,Kansas City,9.4
+2019,9,29,New Orleans,12.6
+2019,9,29,Seattle,13.6
+2019,9,29,LA Rams,86.7
+2019,9,29,Chicago,23.7
+2019,9,29,Cincinnati,15.1
+2019,9,29,LA Chargers,12.0
+2019,9,29,NY Jets,79.7
+2019,9,29,Miami,13.2
+2019,9,29,New England,31.3
+2019,9,29,Indianapolis,20.5
+2019,9,29,Houston,46.0
+2019,9,29,Atlanta,14.4
+2019,9,29,Pittsburgh,21.4
+2019,9,29,Baltimore,13.5
+2019,9,29,Minnesota,16.4
+2019,9,29,NY Giants,12.6
+2019,9,29,Carolina,11.3
+2019,9,29,Dallas,14.0
+2019,9,29,Tennessee,15.2
+2019,9,29,Detroit,13.0
+2019,9,29,Philadelphia,17.9
+2019,9,29,Cleveland,17.8
+2019,9,29,Tampa Bay,13.5
+2019,9,29,San Francisco,12.2
+2019,9,29,Denver,41.1
+2019,9,29,Arizona,8.3
+2019,9,29,Buffalo,9.1
+2019,9,29,Las Vegas,97.3
+2019,9,29,Jacksonville,39.7
+2019,9,22,Kansas City,9.4
+2019,9,22,New Orleans,12.6
+2019,9,22,Seattle,13.6
+2019,9,22,LA Rams,86.7
+2019,9,22,Chicago,23.7
+2019,9,22,Cincinnati,15.1
+2019,9,22,LA Chargers,12.0
+2019,9,22,NY Jets,79.7
+2019,9,22,Miami,13.2
+2019,9,22,New England,31.3
+2019,9,22,Indianapolis,20.5
+2019,9,22,Houston,46.0
+2019,9,22,Atlanta,14.4
+2019,9,22,Pittsburgh,21.4
+2019,9,22,Baltimore,13.5
+2019,9,22,Minnesota,16.4
+2019,9,22,NY Giants,12.6
+2019,9,22,Carolina,11.3
+2019,9,22,Dallas,14.0
+2019,9,22,Tennessee,15.2
+2019,9,22,Detroit,13.0
+2019,9,22,Philadelphia,17.9
+2019,9,22,Cleveland,17.8
+2019,9,22,Tampa Bay,13.5
+2019,9,22,San Francisco,12.2
+2019,9,22,Denver,41.1
+2019,9,22,Arizona,8.3
+2019,9,22,Buffalo,9.1
+2019,9,22,Las Vegas,97.3
+2019,9,22,Jacksonville,39.7
+2019,9,15,Kansas City,9.4
+2019,9,15,New Orleans,12.6
+2019,9,15,Seattle,13.6
+2019,9,15,LA Rams,86.7
+2019,9,15,Chicago,23.7
+2019,9,15,Cincinnati,15.1
+2019,9,15,LA Chargers,12.0
+2019,9,15,NY Jets,79.7
+2019,9,15,Miami,13.2
+2019,9,15,New England,31.3
+2019,9,15,Indianapolis,20.5
+2019,9,15,Houston,46.0
+2019,9,15,Atlanta,14.4
+2019,9,15,Pittsburgh,21.4
+2019,9,15,Baltimore,13.5
+2019,9,15,Minnesota,16.4
+2019,9,15,NY Giants,12.6
+2019,9,15,Carolina,11.3
+2019,9,15,Dallas,14.0
+2019,9,15,Tennessee,15.2
+2019,9,15,Detroit,13.0
+2019,9,15,Philadelphia,17.9
+2019,9,15,Cleveland,17.8
+2019,9,15,Tampa Bay,13.5
+2019,9,15,San Francisco,12.2
+2019,9,15,Denver,41.1
+2019,9,15,Arizona,8.3
+2019,9,15,Buffalo,9.1
+2019,9,15,Las Vegas,97.3
+2019,9,15,Jacksonville,39.7
+2019,9,8,Kansas City,9.4
+2019,9,8,New Orleans,12.6
+2019,9,8,Seattle,13.6
+2019,9,8,LA Rams,86.7
+2019,9,8,Chicago,23.7
+2019,9,8,Cincinnati,15.1
+2019,9,8,LA Chargers,12.0
+2019,9,8,NY Jets,79.7
+2019,9,8,Miami,13.2
+2019,9,8,New England,31.3
+2019,9,8,Indianapolis,20.5
+2019,9,8,Houston,46.0
+2019,9,8,Atlanta,14.4
+2019,9,8,Pittsburgh,21.4
+2019,9,8,Baltimore,13.5
+2019,9,8,Minnesota,16.4
+2019,9,8,NY Giants,12.6
+2019,9,8,Carolina,11.3
+2019,9,8,Dallas,14.0
+2019,9,8,Tennessee,15.2
+2019,9,8,Detroit,13.0
+2019,9,8,Philadelphia,17.9
+2019,9,8,Cleveland,17.8
+2019,9,8,Tampa Bay,13.5
+2019,9,8,San Francisco,12.2
+2019,9,8,Denver,41.1
+2019,9,8,Arizona,8.3
+2019,9,8,Buffalo,9.1
+2019,9,8,Las Vegas,97.3
+2019,9,8,Jacksonville,39.7
+2019,9,1,Kansas City,9.4
+2019,9,1,New Orleans,12.6
+2019,9,1,Seattle,13.6
+2019,9,1,LA Rams,86.7
+2019,9,1,Chicago,23.7
+2019,9,1,Cincinnati,15.1
+2019,9,1,LA Chargers,12.0
+2019,9,1,NY Jets,79.7
+2019,9,1,Miami,13.2
+2019,9,1,New England,31.3
+2019,9,1,Indianapolis,20.5
+2019,9,1,Houston,46.0
+2019,9,1,Atlanta,14.4
+2019,9,1,Pittsburgh,21.4
+2019,9,1,Baltimore,13.5
+2019,9,1,Minnesota,16.4
+2019,9,1,NY Giants,12.6
+2019,9,1,Carolina,11.3
+2019,9,1,Dallas,14.0
+2019,9,1,Tennessee,15.2
+2019,9,1,Detroit,13.0
+2019,9,1,Philadelphia,17.9
+2019,9,1,Cleveland,17.8
+2019,9,1,Tampa Bay,13.5
+2019,9,1,San Francisco,12.2
+2019,9,1,Denver,41.1
+2019,9,1,Arizona,8.3
+2019,9,1,Buffalo,9.1
+2019,9,1,Las Vegas,97.3
+2019,9,1,Jacksonville,39.7
+2019,2,24,Kansas City,9.4
+2019,2,24,New Orleans,12.6
+2019,2,24,Seattle,13.6
+2019,2,24,LA Rams,86.7
+2019,2,24,Chicago,23.7
+2019,2,24,Cincinnati,15.1
+2019,2,24,LA Chargers,12.0
+2019,2,24,NY Jets,79.7
+2019,2,24,Miami,13.2
+2019,2,24,New England,31.3
+2019,2,24,Indianapolis,20.5
+2019,2,24,Houston,46.0
+2019,2,24,Atlanta,14.4
+2019,2,24,Pittsburgh,21.4
+2019,2,24,Baltimore,13.5
+2019,2,24,Minnesota,16.4
+2019,2,24,NY Giants,12.6
+2019,2,24,Carolina,11.3
+2019,2,24,Dallas,14.0
+2019,2,24,Tennessee,15.2
+2019,2,24,Detroit,13.0
+2019,2,24,Philadelphia,17.9
+2019,2,24,Cleveland,17.8
+2019,2,24,Tampa Bay,13.5
+2019,2,24,San Francisco,12.2
+2019,2,24,Denver,41.1
+2019,2,24,Arizona,8.3
+2019,2,24,Buffalo,9.1
+2019,2,24,Las Vegas,97.3
+2019,2,24,Jacksonville,39.7
+2019,2,17,Kansas City,9.4
+2019,2,17,New Orleans,12.6
+2019,2,17,Seattle,13.6
+2019,2,17,LA Rams,86.7
+2019,2,17,Chicago,23.7
+2019,2,17,Cincinnati,15.1
+2019,2,17,LA Chargers,12.0
+2019,2,17,NY Jets,79.7
+2019,2,17,Miami,13.2
+2019,2,17,New England,31.3
+2019,2,17,Indianapolis,20.5
+2019,2,17,Houston,46.0
+2019,2,17,Atlanta,14.4
+2019,2,17,Pittsburgh,21.4
+2019,2,17,Baltimore,13.5
+2019,2,17,Minnesota,16.4
+2019,2,17,NY Giants,12.6
+2019,2,17,Carolina,11.3
+2019,2,17,Dallas,14.0
+2019,2,17,Tennessee,15.2
+2019,2,17,Detroit,13.0
+2019,2,17,Philadelphia,17.9
+2019,2,17,Cleveland,17.8
+2019,2,17,Tampa Bay,13.5
+2019,2,17,San Francisco,12.2
+2019,2,17,Denver,41.1
+2019,2,17,Arizona,8.3
+2019,2,17,Buffalo,9.1
+2019,2,17,Las Vegas,97.3
+2019,2,17,Jacksonville,39.7
+2019,2,10,Kansas City,9.4
+2019,2,10,New Orleans,12.6
+2019,2,10,Seattle,13.6
+2019,2,10,LA Rams,86.7
+2019,2,10,Chicago,23.7
+2019,2,10,Cincinnati,15.1
+2019,2,10,LA Chargers,12.0
+2019,2,10,NY Jets,79.7
+2019,2,10,Miami,13.2
+2019,2,10,New England,31.3
+2019,2,10,Indianapolis,20.5
+2019,2,10,Houston,46.0
+2019,2,10,Atlanta,14.4
+2019,2,10,Pittsburgh,21.4
+2019,2,10,Baltimore,13.5
+2019,2,10,Minnesota,16.4
+2019,2,10,NY Giants,12.6
+2019,2,10,Carolina,11.3
+2019,2,10,Dallas,14.0
+2019,2,10,Tennessee,15.2
+2019,2,10,Detroit,13.0
+2019,2,10,Philadelphia,17.9
+2019,2,10,Cleveland,17.8
+2019,2,10,Tampa Bay,13.5
+2019,2,10,San Francisco,12.2
+2019,2,10,Denver,41.1
+2019,2,10,Arizona,8.3
+2019,2,10,Buffalo,9.1
+2019,2,10,Las Vegas,97.3
+2019,2,10,Jacksonville,39.7
+2019,2,3,Kansas City,9.4
+2019,2,3,New Orleans,12.6
+2019,2,3,LA Rams,14.5
+2019,2,3,Seattle,13.6
+2019,2,3,Chicago,23.7
+2019,2,3,Cincinnati,15.1
+2019,2,3,LA Chargers,12.0
+2019,2,3,New England,14.2
+2019,2,3,NY Jets,79.7
+2019,2,3,Miami,13.2
+2019,2,3,Indianapolis,20.5
+2019,2,3,Houston,46.0
+2019,2,3,Atlanta,14.4
+2019,2,3,Pittsburgh,21.4
+2019,2,3,Baltimore,13.5
+2019,2,3,Minnesota,16.4
+2019,2,3,NY Giants,12.6
+2019,2,3,Carolina,11.3
+2019,2,3,Dallas,14.0
+2019,2,3,Tennessee,15.2
+2019,2,3,Detroit,13.0
+2019,2,3,Philadelphia,17.9
+2019,2,3,Cleveland,17.8
+2019,2,3,Tampa Bay,13.5
+2019,2,3,San Francisco,12.2
+2019,2,3,Denver,41.1
+2019,2,3,Arizona,8.3
+2019,2,3,Buffalo,9.1
+2019,2,3,Las Vegas,97.3
+2019,2,3,Jacksonville,39.7
+2019,1,27,Kansas City,9.4
+2019,1,27,New Orleans,12.6
+2019,1,27,LA Rams,14.5
+2019,1,27,Seattle,13.6
+2019,1,27,Chicago,23.7
+2019,1,27,Cincinnati,15.1
+2019,1,27,LA Chargers,12.0
+2019,1,27,New England,14.2
+2019,1,27,NY Jets,79.7
+2019,1,27,Miami,13.2
+2019,1,27,Indianapolis,20.5
+2019,1,27,Houston,46.0
+2019,1,27,Atlanta,14.4
+2019,1,27,Pittsburgh,21.4
+2019,1,27,Baltimore,13.5
+2019,1,27,Minnesota,16.4
+2019,1,27,NY Giants,12.6
+2019,1,27,Carolina,11.3
+2019,1,27,Dallas,14.0
+2019,1,27,Tennessee,15.2
+2019,1,27,Detroit,13.0
+2019,1,27,Philadelphia,17.9
+2019,1,27,Cleveland,17.8
+2019,1,27,Tampa Bay,13.5
+2019,1,27,San Francisco,12.2
+2019,1,27,Denver,41.1
+2019,1,27,Arizona,8.3
+2019,1,27,Buffalo,9.1
+2019,1,27,Las Vegas,97.3
+2019,1,27,Jacksonville,39.7
+2019,1,20,Kansas City,14.0
+2019,1,20,New Orleans,21.0
+2019,1,20,LA Rams,15.3
+2019,1,20,Seattle,13.6
+2019,1,20,Chicago,23.7
+2019,1,20,Cincinnati,15.1
+2019,1,20,LA Chargers,12.0
+2019,1,20,New England,12.1
+2019,1,20,NY Jets,79.7
+2019,1,20,Miami,13.2
+2019,1,20,Indianapolis,20.5
+2019,1,20,Houston,46.0
+2019,1,20,Atlanta,14.4
+2019,1,20,Pittsburgh,21.4
+2019,1,20,Baltimore,13.5
+2019,1,20,Minnesota,16.4
+2019,1,20,NY Giants,12.6
+2019,1,20,Carolina,11.3
+2019,1,20,Dallas,14.0
+2019,1,20,Philadelphia,17.9
+2019,1,20,Tennessee,15.2
+2019,1,20,Detroit,13.0
+2019,1,20,Cleveland,17.8
+2019,1,20,Tampa Bay,13.5
+2019,1,20,San Francisco,12.2
+2019,1,20,Denver,41.1
+2019,1,20,Arizona,8.3
+2019,1,20,Buffalo,9.1
+2019,1,20,Las Vegas,97.3
+2019,1,20,Jacksonville,39.7
+2019,1,13,New Orleans,21.0
+2019,1,13,Kansas City,14.0
+2019,1,13,LA Rams,15.3
+2019,1,13,Seattle,13.6
+2019,1,13,Chicago,23.7
+2019,1,13,Cincinnati,15.1
+2019,1,13,LA Chargers,10.6
+2019,1,13,NY Jets,79.7
+2019,1,13,New England,9.9
+2019,1,13,Miami,13.2
+2019,1,13,Indianapolis,20.2
+2019,1,13,Houston,46.0
+2019,1,13,Atlanta,14.4
+2019,1,13,Pittsburgh,21.4
+2019,1,13,Baltimore,13.5
+2019,1,13,Minnesota,16.4
+2019,1,13,NY Giants,12.6
+2019,1,13,Carolina,11.3
+2019,1,13,Philadelphia,18.8
+2019,1,13,Dallas,14.0
+2019,1,13,Tennessee,15.2
+2019,1,13,Detroit,13.0
+2019,1,13,Cleveland,17.8
+2019,1,13,Tampa Bay,13.5
+2019,1,13,San Francisco,12.2
+2019,1,13,Denver,41.1
+2019,1,13,Arizona,8.3
+2019,1,13,Buffalo,9.1
+2019,1,13,Las Vegas,97.3
+2019,1,13,Jacksonville,39.7
+2019,1,6,New Orleans,21.0
+2019,1,6,Kansas City,11.7
+2019,1,6,LA Rams,7.9
+2019,1,6,Chicago,13.8
+2019,1,6,Seattle,13.6
+2019,1,6,Cincinnati,15.1
+2019,1,6,LA Chargers,12.0
+2019,1,6,NY Jets,79.7
+2019,1,6,New England,9.9
+2019,1,6,Miami,13.2
+2019,1,6,Indianapolis,20.1
+2019,1,6,Houston,46.0
+2019,1,6,Atlanta,14.4
+2019,1,6,Pittsburgh,21.4
+2019,1,6,Minnesota,16.4
+2019,1,6,Baltimore,17.8
+2019,1,6,NY Giants,12.6
+2019,1,6,Carolina,11.3
+2019,1,6,Philadelphia,15.0
+2019,1,6,Tennessee,15.2
+2019,1,6,Detroit,13.0
+2019,1,6,Dallas,15.8
+2019,1,6,Cleveland,17.8
+2019,1,6,Tampa Bay,13.5
+2019,1,6,San Francisco,12.2
+2019,1,6,Denver,41.1
+2019,1,6,Arizona,8.3
+2019,1,6,Buffalo,9.1
+2019,1,6,Las Vegas,97.3
+2019,1,6,Jacksonville,39.7
+2018,12,30,New Orleans,17.6
+2018,12,30,Kansas City,10.7
+2018,12,30,Chicago,11.5
+2018,12,30,LA Rams,8.4
+2018,12,30,Indianapolis,16.9
+2018,12,30,Cincinnati,18.6
+2018,12,30,New England,18.4
+2018,12,30,Seattle,13.2
+2018,12,30,Carolina,17.6
+2018,12,30,LA Chargers,9.2
+2018,12,30,Pittsburgh,31.0
+2018,12,30,Houston,13.6
+2018,12,30,NY Jets,26.0
+2018,12,30,Baltimore,12.2
+2018,12,30,Minnesota,17.3
+2018,12,30,Cleveland,9.8
+2018,12,30,Miami,13.1
+2018,12,30,Atlanta,21.5
+2018,12,30,Detroit,20.8
+2018,12,30,Denver,12.8
+2018,12,30,Green Bay,14.9
+2018,12,30,Dallas,23.7
+2018,12,30,NY Giants,18.3
+2018,12,30,San Francisco,38.0
+2018,12,30,Arizona,14.9
+2018,12,30,Washington,14.4
+2018,12,30,Philadelphia,13.6
+2018,12,30,Tampa Bay,15.3
+2018,12,30,Tennessee,21.5
+2018,12,30,Buffalo,13.6
+2018,12,30,Jacksonville,15.9
+2018,12,30,Las Vegas,14.6
+2018,12,23,New Orleans,10.1
+2018,12,23,Kansas City,10.7
+2018,12,23,Chicago,11.5
+2018,12,23,LA Rams,8.4
+2018,12,23,Indianapolis,10.4
+2018,12,23,Cincinnati,12.1
+2018,12,23,New England,28.4
+2018,12,23,Pittsburgh,16.2
+2018,12,23,Carolina,20.4
+2018,12,23,Seattle,14.0
+2018,12,23,NY Jets,19.9
+2018,12,23,Minnesota,13.4
+2018,12,23,Houston,13.9
+2018,12,23,LA Chargers,21.8
+2018,12,23,San Francisco,16.3
+2018,12,23,Baltimore,16.8
+2018,12,23,Dallas,13.0
+2018,12,23,Atlanta,21.5
+2018,12,23,Miami,24.5
+2018,12,23,Detroit,20.8
+2018,12,23,NY Giants,9.4
+2018,12,23,Green Bay,15.0
+2018,12,23,Cleveland,15.3
+2018,12,23,Denver,14.1
+2018,12,23,Washington,14.4
+2018,12,23,Tennessee,26.3
+2018,12,23,Arizona,13.4
+2018,12,23,Tampa Bay,14.6
+2018,12,23,Philadelphia,28.0
+2018,12,23,Buffalo,11.0
+2018,12,23,Jacksonville,15.2
+2018,12,23,Las Vegas,14.1
+2018,12,16,New Orleans,10.0
+2018,12,16,Kansas City,12.7
+2018,12,16,Chicago,11.8
+2018,12,16,Cincinnati,20.3
+2018,12,16,Indianapolis,12.6
+2018,12,16,Carolina,11.5
+2018,12,16,LA Rams,12.7
+2018,12,16,New England,28.4
+2018,12,16,Pittsburgh,8.8
+2018,12,16,Seattle,14.0
+2018,12,16,NY Jets,19.9
+2018,12,16,LA Chargers,16.8
+2018,12,16,Atlanta,23.9
+2018,12,16,Minnesota,11.8
+2018,12,16,Houston,15.3
+2018,12,16,Detroit,13.9
+2018,12,16,Baltimore,16.6
+2018,12,16,San Francisco,16.3
+2018,12,16,Miami,24.5
+2018,12,16,Tennessee,11.3
+2018,12,16,Green Bay,15.0
+2018,12,16,Dallas,15.2
+2018,12,16,Cleveland,15.3
+2018,12,16,Denver,20.5
+2018,12,16,Philadelphia,21.1
+2018,12,16,Arizona,18.6
+2018,12,16,Washington,17.9
+2018,12,16,NY Giants,10.3
+2018,12,16,Tampa Bay,167.0
+2018,12,16,Buffalo,11.0
+2018,12,16,Jacksonville,16.0
+2018,12,16,Las Vegas,52.8
+2018,12,9,New Orleans,10.8
+2018,12,9,Kansas City,13.5
+2018,12,9,Chicago,4.6
+2018,12,9,Cincinnati,10.9
+2018,12,9,New England,14.0
+2018,12,9,Indianapolis,11.0
+2018,12,9,Carolina,11.5
+2018,12,9,LA Rams,13.8
+2018,12,9,Pittsburgh,8.8
+2018,12,9,NY Jets,45.8
+2018,12,9,Seattle,20.9
+2018,12,9,Atlanta,12.9
+2018,12,9,LA Chargers,15.0
+2018,12,9,Miami,12.9
+2018,12,9,Minnesota,11.8
+2018,12,9,Houston,15.3
+2018,12,9,San Francisco,11.9
+2018,12,9,Baltimore,16.6
+2018,12,9,Tampa Bay,10.8
+2018,12,9,Detroit,23.2
+2018,12,9,Cleveland,18.5
+2018,12,9,Dallas,21.2
+2018,12,9,Philadelphia,16.5
+2018,12,9,Denver,20.5
+2018,12,9,Green Bay,21.6
+2018,12,9,Arizona,17.8
+2018,12,9,Washington,26.1
+2018,12,9,Tennessee,12.1
+2018,12,9,NY Giants,23.3
+2018,12,9,Las Vegas,80.7
+2018,12,9,Jacksonville,18.6
+2018,12,9,Buffalo,29.3
+2018,12,2,New Orleans,9.0
+2018,12,2,Kansas City,11.3
+2018,12,2,Cincinnati,10.9
+2018,12,2,New England,15.5
+2018,12,2,NY Jets,20.7
+2018,12,2,Indianapolis,11.0
+2018,12,2,LA Rams,14.3
+2018,12,2,Chicago,16.5
+2018,12,2,Seattle,14.8
+2018,12,2,Pittsburgh,12.8
+2018,12,2,Carolina,10.7
+2018,12,2,LA Chargers,17.2
+2018,12,2,Atlanta,18.4
+2018,12,2,Detroit,23.6
+2018,12,2,Miami,16.1
+2018,12,2,Houston,10.2
+2018,12,2,Baltimore,15.5
+2018,12,2,San Francisco,11.9
+2018,12,2,Minnesota,21.2
+2018,12,2,Dallas,19.0
+2018,12,2,Denver,17.9
+2018,12,2,Cleveland,13.2
+2018,12,2,Tampa Bay,16.9
+2018,12,2,Washington,18.0
+2018,12,2,Green Bay,13.3
+2018,12,2,Philadelphia,16.5
+2018,12,2,Arizona,17.8
+2018,12,2,Tennessee,20.5
+2018,12,2,NY Giants,23.3
+2018,12,2,Las Vegas,80.7
+2018,12,2,Jacksonville,18.6
+2018,12,2,Buffalo,55.5
+2018,11,25,New Orleans,10.1
+2018,11,25,Kansas City,10.7
+2018,11,25,Chicago,11.5
+2018,11,25,LA Rams,8.4
+2018,11,25,Indianapolis,10.4
+2018,11,25,Cincinnati,12.1
+2018,11,25,New England,28.4
+2018,11,25,Pittsburgh,16.2
+2018,11,25,Carolina,20.4
+2018,11,25,Seattle,14.0
+2018,11,25,NY Jets,19.9
+2018,11,25,Minnesota,13.4
+2018,11,25,Houston,13.9
+2018,11,25,LA Chargers,21.8
+2018,11,25,San Francisco,16.3
+2018,11,25,Baltimore,16.8
+2018,11,25,Dallas,13.0
+2018,11,25,Atlanta,21.5
+2018,11,25,Miami,24.5
+2018,11,25,Detroit,20.8
+2018,11,25,NY Giants,9.4
+2018,11,25,Green Bay,15.0
+2018,11,25,Cleveland,15.3
+2018,11,25,Denver,14.1
+2018,11,25,Washington,14.4
+2018,11,25,Tennessee,26.3
+2018,11,25,Arizona,13.4
+2018,11,25,Tampa Bay,14.6
+2018,11,25,Philadelphia,28.0
+2018,11,25,Buffalo,11.0
+2018,11,25,Jacksonville,15.2
+2018,11,25,Las Vegas,14.1
+2018,11,18,New Orleans,10.0
+2018,11,18,Kansas City,12.7
+2018,11,18,Chicago,11.8
+2018,11,18,Cincinnati,20.3
+2018,11,18,Indianapolis,12.6
+2018,11,18,Carolina,11.5
+2018,11,18,LA Rams,12.7
+2018,11,18,New England,28.4
+2018,11,18,Pittsburgh,8.8
+2018,11,18,Seattle,14.0
+2018,11,18,NY Jets,19.9
+2018,11,18,LA Chargers,16.8
+2018,11,18,Atlanta,23.9
+2018,11,18,Minnesota,11.8
+2018,11,18,Houston,15.3
+2018,11,18,Detroit,13.9
+2018,11,18,Baltimore,16.6
+2018,11,18,San Francisco,16.3
+2018,11,18,Miami,24.5
+2018,11,18,Tennessee,11.3
+2018,11,18,Green Bay,15.0
+2018,11,18,Dallas,15.2
+2018,11,18,Cleveland,15.3
+2018,11,18,Denver,20.5
+2018,11,18,Philadelphia,21.1
+2018,11,18,Arizona,18.6
+2018,11,18,Washington,17.9
+2018,11,18,NY Giants,10.3
+2018,11,18,Tampa Bay,167.0
+2018,11,18,Buffalo,11.0
+2018,11,18,Jacksonville,16.0
+2018,11,18,Las Vegas,52.8
+2018,11,11,New Orleans,10.8
+2018,11,11,Kansas City,13.5
+2018,11,11,Chicago,4.6
+2018,11,11,Cincinnati,10.9
+2018,11,11,New England,14.0
+2018,11,11,Indianapolis,11.0
+2018,11,11,Carolina,11.5
+2018,11,11,LA Rams,13.8
+2018,11,11,Pittsburgh,8.8
+2018,11,11,NY Jets,45.8
+2018,11,11,Seattle,20.9
+2018,11,11,Atlanta,12.9
+2018,11,11,LA Chargers,15.0
+2018,11,11,Miami,12.9
+2018,11,11,Minnesota,11.8
+2018,11,11,Houston,15.3
+2018,11,11,San Francisco,11.9
+2018,11,11,Baltimore,16.6
+2018,11,11,Tampa Bay,10.8
+2018,11,11,Detroit,23.2
+2018,11,11,Cleveland,18.5
+2018,11,11,Dallas,21.2
+2018,11,11,Philadelphia,16.5
+2018,11,11,Denver,20.5
+2018,11,11,Green Bay,21.6
+2018,11,11,Arizona,17.8
+2018,11,11,Washington,26.1
+2018,11,11,Tennessee,12.1
+2018,11,11,NY Giants,23.3
+2018,11,11,Las Vegas,80.7
+2018,11,11,Jacksonville,18.6
+2018,11,11,Buffalo,29.3
+2018,11,4,New Orleans,9.0
+2018,11,4,Kansas City,11.3
+2018,11,4,Cincinnati,10.9
+2018,11,4,New England,15.5
+2018,11,4,NY Jets,20.7
+2018,11,4,Indianapolis,11.0
+2018,11,4,LA Rams,14.3
+2018,11,4,Chicago,16.5
+2018,11,4,Seattle,14.8
+2018,11,4,Pittsburgh,12.8
+2018,11,4,Carolina,10.7
+2018,11,4,LA Chargers,17.2
+2018,11,4,Atlanta,18.4
+2018,11,4,Detroit,23.6
+2018,11,4,Miami,16.1
+2018,11,4,Houston,10.2
+2018,11,4,Baltimore,15.5
+2018,11,4,San Francisco,11.9
+2018,11,4,Minnesota,21.2
+2018,11,4,Dallas,19.0
+2018,11,4,Denver,17.9
+2018,11,4,Cleveland,13.2
+2018,11,4,Tampa Bay,16.9
+2018,11,4,Washington,18.0
+2018,11,4,Green Bay,13.3
+2018,11,4,Philadelphia,16.5
+2018,11,4,Arizona,17.8
+2018,11,4,Tennessee,20.5
+2018,11,4,NY Giants,23.3
+2018,11,4,Las Vegas,80.7
+2018,11,4,Jacksonville,18.6
+2018,11,4,Buffalo,55.5
+2018,10,28,Kansas City,12.2
+2018,10,28,New Orleans,14.1
+2018,10,28,New England,10.0
+2018,10,28,NY Jets,15.5
+2018,10,28,Cincinnati,23.9
+2018,10,28,LA Rams,8.7
+2018,10,28,Chicago,14.6
+2018,10,28,Seattle,13.7
+2018,10,28,Indianapolis,10.2
+2018,10,28,LA Chargers,17.2
+2018,10,28,Detroit,14.3
+2018,10,28,Pittsburgh,17.2
+2018,10,28,Atlanta,18.4
+2018,10,28,Minnesota,8.5
+2018,10,28,Carolina,17.7
+2018,10,28,Miami,16.1
+2018,10,28,Houston,10.2
+2018,10,28,Baltimore,15.3
+2018,10,28,San Francisco,22.8
+2018,10,28,Denver,6.9
+2018,10,28,Dallas,19.0
+2018,10,28,Washington,15.3
+2018,10,28,Tampa Bay,17.5
+2018,10,28,Philadelphia,20.1
+2018,10,28,Cleveland,13.3
+2018,10,28,Arizona,22.3
+2018,10,28,Green Bay,15.8
+2018,10,28,NY Giants,21.7
+2018,10,28,Tennessee,20.5
+2018,10,28,Buffalo,60.6
+2018,10,28,Las Vegas,61.7
+2018,10,28,Jacksonville,37.0
+2018,10,21,Kansas City,11.2
+2018,10,21,New Orleans,10.4
+2018,10,21,Cincinnati,13.1
+2018,10,21,NY Jets,8.9
+2018,10,21,New England,11.6
+2018,10,21,Chicago,16.7
+2018,10,21,Seattle,13.7
+2018,10,21,LA Chargers,11.8
+2018,10,21,LA Rams,19.3
+2018,10,21,Atlanta,12.3
+2018,10,21,Indianapolis,12.6
+2018,10,21,Detroit,8.5
+2018,10,21,Pittsburgh,17.2
+2018,10,21,Carolina,20.6
+2018,10,21,Miami,17.5
+2018,10,21,Baltimore,17.2
+2018,10,21,San Francisco,13.4
+2018,10,21,Dallas,9.5
+2018,10,21,Tampa Bay,17.6
+2018,10,21,Denver,6.9
+2018,10,21,Philadelphia,11.1
+2018,10,21,Washington,12.5
+2018,10,21,Minnesota,15.2
+2018,10,21,Arizona,22.3
+2018,10,21,Green Bay,15.8
+2018,10,21,Cleveland,22.6
+2018,10,21,Houston,10.8
+2018,10,21,Buffalo,17.6
+2018,10,21,NY Giants,30.8
+2018,10,21,Las Vegas,61.7
+2018,10,21,Jacksonville,29.1
+2018,10,14,New Orleans,10.4
+2018,10,14,Kansas City,14.1
+2018,10,14,Cincinnati,12.3
+2018,10,14,Chicago,10.1
+2018,10,14,New England,11.5
+2018,10,14,LA Rams,14.2
+2018,10,14,NY Jets,15.1
+2018,10,14,Seattle,12.0
+2018,10,14,Carolina,10.6
+2018,10,14,Pittsburgh,9.3
+2018,10,14,Miami,17.5
+2018,10,14,Detroit,8.5
+2018,10,14,LA Chargers,15.8
+2018,10,14,Atlanta,19.1
+2018,10,14,Baltimore,45.6
+2018,10,14,Indianapolis,18.3
+2018,10,14,Tampa Bay,31.1
+2018,10,14,San Francisco,24.8
+2018,10,14,Philadelphia,11.1
+2018,10,14,Arizona,7.9
+2018,10,14,Cleveland,34.7
+2018,10,14,Tennessee,18.4
+2018,10,14,Minnesota,16.3
+2018,10,14,Washington,14.9
+2018,10,14,Green Bay,22.7
+2018,10,14,Buffalo,17.2
+2018,10,14,NY Giants,30.8
+2018,10,14,Houston,24.3
+2018,10,14,Dallas,18.3
+2018,10,14,Las Vegas,28.9
+2018,10,14,Denver,27.3
+2018,10,14,Jacksonville,35.9
+2018,10,7,Kansas City,16.5
+2018,10,7,Cincinnati,11.0
+2018,10,7,New Orleans,11.8
+2018,10,7,Chicago,10.1
+2018,10,7,Baltimore,17.3
+2018,10,7,NY Jets,14.8
+2018,10,7,LA Rams,14.6
+2018,10,7,New England,11.5
+2018,10,7,Miami,24.6
+2018,10,7,Atlanta,13.8
+2018,10,7,Seattle,16.6
+2018,10,7,Cleveland,11.6
+2018,10,7,San Francisco,13.5
+2018,10,7,LA Chargers,12.7
+2018,10,7,Indianapolis,18.3
+2018,10,7,Tampa Bay,31.1
+2018,10,7,Carolina,12.2
+2018,10,7,Pittsburgh,20.3
+2018,10,7,Green Bay,19.2
+2018,10,7,Detroit,15.9
+2018,10,7,Tennessee,15.3
+2018,10,7,NY Giants,16.6
+2018,10,7,Houston,12.6
+2018,10,7,Jacksonville,16.2
+2018,10,7,Minnesota,14.4
+2018,10,7,Philadelphia,18.8
+2018,10,7,Washington,12.5
+2018,10,7,Las Vegas,12.6
+2018,10,7,Denver,16.7
+2018,10,7,Dallas,15.9
+2018,10,7,Arizona,15.5
+2018,9,30,Baltimore,11.6
+2018,9,30,LA Rams,27.8
+2018,9,30,Philadelphia,13.1
+2018,9,30,Detroit,10.2
+2018,9,30,Jacksonville,18.7
+2018,9,30,New Orleans,14.9
+2018,9,30,New England,18.6
+2018,9,30,Carolina,15.9
+2018,9,30,Seattle,12.3
+2018,9,30,Kansas City,15.5
+2018,9,30,Pittsburgh,13.0
+2018,9,30,Dallas,50.2
+2018,9,30,Houston,16.1
+2018,9,30,Washington,19.7
+2018,9,30,Green Bay,23.3
+2018,9,30,Tennessee,19.1
+2018,9,30,Minnesota,47.6
+2018,9,30,Cincinnati,11.6
+2018,9,30,NY Jets,41.2
+2018,9,30,Atlanta,28.1
+2018,9,30,Buffalo,87.7
+2018,9,30,San Francisco,13.6
+2018,9,30,LA Chargers,16.5
+2018,9,30,Arizona,10.0
+2018,9,30,Las Vegas,33.6
+2018,9,30,Indianapolis,11.4
+2018,9,30,Tampa Bay,14.7
+2018,9,30,Chicago,20.1
+2018,9,30,Miami,22.3
+2018,9,30,Denver,14.0
+2018,9,30,NY Giants,21.2
+2018,9,30,Cleveland,15.6
+2018,9,23,Baltimore,11.6
+2018,9,23,LA Rams,27.8
+2018,9,23,Philadelphia,13.1
+2018,9,23,Detroit,10.2
+2018,9,23,Jacksonville,18.7
+2018,9,23,New Orleans,14.9
+2018,9,23,New England,18.6
+2018,9,23,Carolina,15.9
+2018,9,23,Seattle,12.3
+2018,9,23,Kansas City,15.5
+2018,9,23,Pittsburgh,13.0
+2018,9,23,Dallas,50.2
+2018,9,23,Houston,16.1
+2018,9,23,Washington,19.7
+2018,9,23,Green Bay,23.3
+2018,9,23,Tennessee,19.1
+2018,9,23,Minnesota,47.6
+2018,9,23,Cincinnati,11.6
+2018,9,23,NY Jets,41.2
+2018,9,23,Atlanta,28.1
+2018,9,23,Buffalo,87.7
+2018,9,23,San Francisco,13.6
+2018,9,23,LA Chargers,16.5
+2018,9,23,Arizona,10.0
+2018,9,23,Las Vegas,33.6
+2018,9,23,Indianapolis,11.4
+2018,9,23,Tampa Bay,14.7
+2018,9,23,Chicago,20.1
+2018,9,23,Miami,22.3
+2018,9,23,Denver,14.0
+2018,9,23,NY Giants,21.2
+2018,9,23,Cleveland,15.6
+2018,9,16,Baltimore,11.6
+2018,9,16,LA Rams,27.8
+2018,9,16,Philadelphia,13.1
+2018,9,16,Detroit,10.2
+2018,9,16,Jacksonville,18.7
+2018,9,16,New Orleans,14.9
+2018,9,16,New England,18.6
+2018,9,16,Carolina,15.9
+2018,9,16,Seattle,12.3
+2018,9,16,Kansas City,15.5
+2018,9,16,Pittsburgh,13.0
+2018,9,16,Dallas,50.2
+2018,9,16,Houston,16.1
+2018,9,16,Washington,19.7
+2018,9,16,Green Bay,23.3
+2018,9,16,Tennessee,19.1
+2018,9,16,Minnesota,47.6
+2018,9,16,Cincinnati,11.6
+2018,9,16,NY Jets,41.2
+2018,9,16,Atlanta,28.1
+2018,9,16,Buffalo,87.7
+2018,9,16,San Francisco,13.6
+2018,9,16,LA Chargers,16.5
+2018,9,16,Arizona,10.0
+2018,9,16,Las Vegas,33.6
+2018,9,16,Indianapolis,11.4
+2018,9,16,Tampa Bay,14.7
+2018,9,16,Chicago,20.1
+2018,9,16,Miami,22.3
+2018,9,16,Denver,14.0
+2018,9,16,NY Giants,21.2
+2018,9,16,Cleveland,15.6
+2018,9,9,Baltimore,11.6
+2018,9,9,LA Rams,27.8
+2018,9,9,Philadelphia,13.1
+2018,9,9,Detroit,10.2
+2018,9,9,Jacksonville,18.7
+2018,9,9,New Orleans,14.9
+2018,9,9,New England,18.6
+2018,9,9,Carolina,15.9
+2018,9,9,Seattle,12.3
+2018,9,9,Kansas City,15.5
+2018,9,9,Pittsburgh,13.0
+2018,9,9,Dallas,50.2
+2018,9,9,Houston,16.1
+2018,9,9,Washington,19.7
+2018,9,9,Green Bay,23.3
+2018,9,9,Tennessee,19.1
+2018,9,9,Minnesota,47.6
+2018,9,9,Cincinnati,11.6
+2018,9,9,NY Jets,41.2
+2018,9,9,Atlanta,28.1
+2018,9,9,Buffalo,87.7
+2018,9,9,San Francisco,13.6
+2018,9,9,LA Chargers,16.5
+2018,9,9,Arizona,10.0
+2018,9,9,Las Vegas,33.6
+2018,9,9,Indianapolis,11.4
+2018,9,9,Tampa Bay,14.7
+2018,9,9,Chicago,20.1
+2018,9,9,Miami,22.3
+2018,9,9,Denver,14.0
+2018,9,9,NY Giants,21.2
+2018,9,9,Cleveland,15.6
+2018,9,2,Baltimore,11.6
+2018,9,2,LA Rams,27.8
+2018,9,2,Philadelphia,13.1
+2018,9,2,Detroit,10.2
+2018,9,2,Jacksonville,18.7
+2018,9,2,New Orleans,14.9
+2018,9,2,New England,18.6
+2018,9,2,Carolina,15.9
+2018,9,2,Seattle,12.3
+2018,9,2,Kansas City,15.5
+2018,9,2,Pittsburgh,13.0
+2018,9,2,Dallas,50.2
+2018,9,2,Houston,16.1
+2018,9,2,Washington,19.7
+2018,9,2,Green Bay,23.3
+2018,9,2,Tennessee,19.1
+2018,9,2,Minnesota,47.6
+2018,9,2,Cincinnati,11.6
+2018,9,2,NY Jets,41.2
+2018,9,2,Atlanta,28.1
+2018,9,2,Buffalo,87.7
+2018,9,2,San Francisco,13.6
+2018,9,2,LA Chargers,16.5
+2018,9,2,Arizona,10.0
+2018,9,2,Las Vegas,33.6
+2018,9,2,Indianapolis,11.4
+2018,9,2,Tampa Bay,14.7
+2018,9,2,Chicago,20.1
+2018,9,2,Miami,22.3
+2018,9,2,Denver,14.0
+2018,9,2,NY Giants,21.2
+2018,9,2,Cleveland,15.6

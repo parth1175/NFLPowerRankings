@@ -15,7 +15,7 @@ from multiprocessing import Pool, cpu_count
 
 def main():
     chrome_options = Options()
-    chrome_options.headless = False # also works
+    chrome_options.headless = True # also works
     driver = webdriver.Chrome('/Users/landon/Downloads/chromedriver', options=chrome_options)  # Optional argument, if not specified will search path.
 
     # overall
@@ -23,13 +23,13 @@ def main():
     points_per_game_url = 'https://www.teamrankings.com/nfl/stat/points-per-game'
 
     # offensive
-    completion_percent_url = 'https://www.teamrankings.com/nfl/stat/completion-pct'
+    #completion_percent_url = 'https://www.teamrankings.com/nfl/stat/completion-pct'
     ypg_url = 'https://www.teamrankings.com/nfl/stat/yards-per-game'
-    red_zone_TD_percent_url = 'https://www.teamrankings.com/nfl/stat/red-zone-scoring-pct'
-    offensive_ints_url = 'https://www.teamrankings.com/nfl/stat/interceptions-thrown-per-game'
-    third_down_conv_percent_url = 'https://www.teamrankings.com/nfl/stat/third-down-conversion-pct'
-    touchdowns_per_game_url = 'https://www.teamrankings.com/nfl/stat/touchdowns-per-game'
-    yards_per_point = 'https://www.teamrankings.com/nfl/stat/yards-per-point'
+    #red_zone_TD_percent_url = 'https://www.teamrankings.com/nfl/stat/red-zone-scoring-pct'
+    #offensive_ints_url = 'https://www.teamrankings.com/nfl/stat/interceptions-thrown-per-game'
+    #third_down_conv_percent_url = 'https://www.teamrankings.com/nfl/stat/third-down-conversion-pct'
+    #touchdowns_per_game_url = 'https://www.teamrankings.com/nfl/stat/touchdowns-per-game'
+    yards_per_point_url = 'https://www.teamrankings.com/nfl/stat/yards-per-point'
 
     # defensive
     opponent_ypg_url = 'https://www.teamrankings.com/nfl/stat/opponent-yards-per-game'
@@ -39,12 +39,11 @@ def main():
     opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
     sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
 
-    master_schedule_url = 'https://www.pro-football-reference.com/years/2021/games.htm'
+    master_schedule_url = 'https://www.pro-football-reference.com/years/2009/games.htm'
     driver.get(master_schedule_url) # change this line of code based on feature needed
 
     # sunday = get_prev_sunday()
-    # get_weekly_feature(driver, sunday, 'defensive yards per game allowed', column=5) # change column's title and csv filename to 3rd parameter
-
+    # get_weekly_feature(driver, sunday, 'offensive yards per point', column=5) # change column's title and csv filename to 3rd parameter
     get_master_schedule(driver)
 
     driver.quit()
@@ -57,7 +56,7 @@ def log_data():
 def get_weekly_feature(driver, date, feature, column=3):
     feature = feature.replace(' ', '_')
 
-    with open(f'{feature}.csv', 'w') as f:
+    with open(f'{feature}.csv', 'a') as f:
         filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         filewriter.writerow(['year', 'month', 'day', 'team', f'{feature}'])
 
@@ -127,21 +126,18 @@ def get_feature(driver, column):
 
 def get_master_schedule(driver, season=2021):
 
-    with open(f'master_schedule.csv', 'w') as f:
+    with open(f'master_schedule.csv', 'a') as f:
         filewriter = csv.writer(f, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         filewriter.writerow(['Date', 'Winner/tie', 'Loser/tie', 'PtsW', 'PtsL'])
 
-        search_box = driver.find_element(By.XPATH, "//table[@id='games']")
-        table_body = search_box.find_element(By.XPATH, ".//tbody")
-        table_rows = table_body.find_elements(By.XPATH, ".//tr")
+        while season > 2002:
+            search_box = driver.find_element(By.XPATH, "//table[@id='games']")
+            table_body = search_box.find_element(By.XPATH, ".//tbody")
+            table_rows = table_body.find_elements(By.XPATH, ".//tr")
 
-        back_button = driver.find_element(By.XPATH, "//a[@class='button2 prev']")
+            back_button = driver.find_element(By.XPATH, "//a[@class='button2 prev']")
 
-        teams, opponents = [], []
-        opponent_by_week_lookup = {}
-
-        weekly_matchups = []
-        while season > 2020:
+            weekly_matchups = []
             for row in table_rows:
                 row_data = []
                 for col in row.find_elements(By.XPATH, ".//td"):
@@ -157,17 +153,14 @@ def get_master_schedule(driver, season=2021):
 
                         weekly_data = [next_sunday, team1, team2, team1_score, team2_score]
                         weekly_matchups.append(weekly_data)
-                        print(weekly_data)
 
-            # back_button.click()
-            # time.sleep(0.25)
+            back_button.click()
+            time.sleep(0.25)
             season -= 1
 
-        for d in weekly_matchups:
-            filewriter.writerow([d[0], d[1], d[2], d[3], d[4]])
-            print(d[0], d[1], d[2], d[3], d[4])
-
-    return None
+            for d in weekly_matchups:
+                filewriter.writerow([d[0], d[1], d[2], d[3], d[4]])
+                print(d[0], d[1], d[2], d[3], d[4])
 
 
 def select_year(driver, year):
