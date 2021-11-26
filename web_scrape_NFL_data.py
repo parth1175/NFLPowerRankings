@@ -32,19 +32,19 @@ def main():
     yards_per_point_url = 'https://www.teamrankings.com/nfl/stat/yards-per-point'
 
     # defensive
-    opponent_ypg_url = 'https://www.teamrankings.com/nfl/stat/opponent-yards-per-game'
-    takeaways_url = 'https://www.teamrankings.com/nfl/stat/takeaways-per-game'
-    opponent_third_down_conv_url = 'https://www.teamrankings.com/nfl/stat/opponent-third-down-conversion-pct'
-    opponent_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-completion-pct'
-    opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
-    sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
+    # opponent_ypg_url = 'https://www.teamrankings.com/nfl/stat/opponent-yards-per-game'
+    # takeaways_url = 'https://www.teamrankings.com/nfl/stat/takeaways-per-game'
+    # opponent_third_down_conv_url = 'https://www.teamrankings.com/nfl/stat/opponent-third-down-conversion-pct'
+    # opponent_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-completion-pct'
+    # opponent_red_zone_comp_percent_url = 'https://www.teamrankings.com/nfl/stat/opponent-red-zone-scoring-pct'
+    # sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
 
-    master_schedule_url = 'https://www.pro-football-reference.com/years/2009/games.htm'
-    driver.get(master_schedule_url) # change this line of code based on feature needed
+    # master_schedule_url = 'https://www.pro-football-reference.com/years/2009/games.htm'
+    driver.get(scoring_margin_url) # change this line of code based on feature needed
 
-    # sunday = get_prev_sunday()
-    # get_weekly_feature(driver, sunday, 'offensive yards per point', column=5) # change column's title and csv filename to 3rd parameter
-    get_master_schedule(driver)
+    sunday = get_prev_sunday()
+    get_weekly_feature(driver, sunday, 'scoring margin', column=5) # change column's title and csv filename to 3rd parameter
+    # get_master_schedule(driver)
 
     driver.quit()
 
