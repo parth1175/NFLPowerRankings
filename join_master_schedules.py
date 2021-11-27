@@ -7,6 +7,8 @@ df_schedule = pd.read_csv('master_schedule.csv')
 
 # print(df_schedule.columns)
 df_schedule = df_schedule.rename(columns={"Winner/tie": "team", "Loser/tie": "opponent"})
+df_schedule = df_schedule[df_schedule.Date != '2021-11-28']
+
 df_schedule_flipped = df_schedule[['Date', 'opponent', 'team', 'PtsW', 'PtsL']]
 df_schedule_flipped = df_schedule_flipped.rename(columns={'opponent': 'team', 'team': 'opponent'})
 full_schedule_list = pd.concat([df_schedule, df_schedule_flipped])
@@ -23,7 +25,7 @@ for index, row in full_schedule_list.iterrows():
     schedule_dict.setdefault(date, {})[team1] = team2
 
 
-full_schedule_list.to_csv("master_schedule_all_teams.csv")
+full_schedule_list.to_csv("master_schedule_all_teams.csv", index=False)
 
 # data = pd.read_csv('./weeklyMatchups.csv')
 # roster = pd.Dataframe(data)
@@ -49,7 +51,6 @@ for date in schedule_dict.keys():
                 opponent_rank = '-'
         except:
             print('error')
-
 
         opponent_ranks.append(opponent_rank)
 
