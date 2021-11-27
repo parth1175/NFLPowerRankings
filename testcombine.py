@@ -7,12 +7,27 @@ import time
 
 rank_df = pd.read_csv('expected.csv')
 print(rank_df)
-for i, row in rank_df.iterrows():
-    print(row)
-##print(rank_df['Expected'])
-total_points = pd.read_csv('total_points_per_game.csv')
-print(total_points)
 
-merged = pd.merge(rank_df,total_points,how="inner",on=["team","year","month","day"])
+master = pd.read_csv('master_schedule.csv')
+print(master)
+
+print(rank_df.dtypes)
+print(master.dtypes)
+
+merged = pd.merge(rank_df,master,how="left",on=["team","year","month","day"])
 
 print(merged)
+
+margin = pd.read_csv('scoring_margin.csv')
+print(margin.dtypes)
+##margin['year']= pd.to_numeric(margin['year'],errors='coerce').isnull()
+##print(margin[pd.to_numeric(margin['year'],errors='coerce').isnull()])
+
+print(margin.dtypes)
+
+full = pd.merge(merged,margin,how="left",on=["team","year","month","day"])
+
+
+print(full)
+
+full.to_csv('test.csv')
