@@ -38,16 +38,21 @@ for index, row in df_ranking.iterrows():
     # ranking_dict[str_date][team] = ranking
     ranking_dict.setdefault(str_date, {})[team] = ranking
 
-# opponent_ranks = []
-# for date in schedule_dict.keys():
-#     for team, opponent in schedule_dict[date].items():
-#         if date in ranking_dict:
-#             opponent_rank = ranking_dict[date][opponent]
-#         else:
-#             opponent_rank = '-'
-#
-#         opponent_ranks.append(opponent_rank)
-#
+opponent_ranks = []
+for date in schedule_dict.keys():
+    for team, opponent in schedule_dict[date].items():
+        opponent_rank = 0
+        try:
+            if date in ranking_dict:
+                opponent_rank = ranking_dict[date][opponent]
+            else:
+                opponent_rank = '-'
+        except:
+            print('error')
+
+
+        opponent_ranks.append(opponent_rank)
+
 # full_schedule_list.insert(4, "opponent_rank", opponent_ranks, True)
 
 

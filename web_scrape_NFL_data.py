@@ -21,6 +21,7 @@ def main():
     # overall
     scoring_margin_url = 'https://www.teamrankings.com/nfl/stat/average-scoring-margin'
     points_per_game_url = 'https://www.teamrankings.com/nfl/stat/points-per-game'
+    ranking_url = 'https://www.teamrankings.com/nfl/rankings/teams/'
 
     # offensive
     #completion_percent_url = 'https://www.teamrankings.com/nfl/stat/completion-pct'
