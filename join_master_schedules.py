@@ -6,12 +6,12 @@ df_ranking = pd.read_csv('ranking.csv')
 df_schedule = pd.read_csv('master_schedule.csv')
 
 # print(df_schedule.columns)
-df_schedule = df_schedule.rename(columns={"Winner/tie": "team", "Loser/tie": "opponent"})
-df_schedule = df_schedule[df_schedule.Date != '2021-11-28']
-
-df_schedule_flipped = df_schedule[['Date', 'opponent', 'team', 'PtsW', 'PtsL']]
-df_schedule_flipped = df_schedule_flipped.rename(columns={'opponent': 'team', 'team': 'opponent'})
-appended_schedule = pd.concat([df_schedule, df_schedule_flipped])
+# df_schedule = df_schedule.rename(columns={"Winner/tie": "team", "Loser/tie": "opponent"})
+# df_schedule = df_schedule[df_schedule.Date != '2021-11-28']
+#
+# df_schedule_flipped = df_schedule[['Date', 'opponent', 'team', 'PtsW', 'PtsL']]
+# df_schedule_flipped = df_schedule_flipped.rename(columns={'opponent': 'team', 'team': 'opponent'})
+# appended_schedule = pd.concat([df_schedule, df_schedule_flipped])
 
 # print((full_schedule_list))
 
@@ -24,7 +24,7 @@ for index, row in df_schedule.iterrows():
     date, team1, team2, ptsW, ptsL = row
     schedule_dict.setdefault(date, {})[team1] = team2
 
-appended_schedule.to_csv("master_schedule_appended.csv", index=False)
+# appended_schedule.to_csv("master_schedule_appended.csv", index=False)
 
 # data = pd.read_csv('./weeklyMatchups.csv')
 # roster = pd.Dataframe(data)
@@ -39,21 +39,18 @@ for index, row in df_ranking.iterrows():
     # ranking_dict[str_date][team] = ranking
     ranking_dict.setdefault(str_date, {})[team] = ranking
 
-# opponent_ranks = []
-# for date in schedule_dict.keys():
-#     for team, opponent in schedule_dict[date].items():
-#         opponent_rank = 0
-#         try:
-#             if date in ranking_dict:
-#                 opponent_rank = ranking_dict[date][opponent]
-#             else:
-#                 opponent_rank = '-'
-#         except:
-#             print('error')
-#
-#         opponent_ranks.append(opponent_rank)
+opponent_ranks = []
+for date in schedule_dict.keys():
+    for team, opponent in schedule_dict[date].items():
+        opponent_rank = 0
+        try:
+            opponent_rank = ranking_dict[date][opponent]
+        except:
+            print('error')
 
-# full_schedule_list.insert(4, "opponent_rank", opponent_ranks, True)
+        opponent_ranks.append(opponent_rank)
+
+df_schedule.insert(4, "opponent_rank", opponent_ranks, True)
 
 
 

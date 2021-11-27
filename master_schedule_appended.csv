@@ -3369,7 +3369,6 @@ Date,team,opponent,PtsW,PtsL
 2010-01-24,Indianapolis Colts,New York Jets,30,17
 2010-01-24,New Orleans Saints,Minnesota Vikings,31,28
 2010-02-07,New Orleans Saints,Indianapolis Colts,31,17
-Date,Winner/tie,Loser/tie,PtsW,PtsL
 2009-09-13,Pittsburgh Steelers,Tennessee Titans,13,10
 2009-09-13,Denver Broncos,Cincinnati Bengals,12,7
 2009-09-13,Baltimore Ravens,Kansas City Chiefs,38,24
@@ -8609,7 +8608,6 @@ Date,Winner/tie,Loser/tie,PtsW,PtsL
 2010-01-24,New York Jets,Indianapolis Colts,30,17
 2010-01-24,Minnesota Vikings,New Orleans Saints,31,28
 2010-02-07,Indianapolis Colts,New Orleans Saints,31,17
-Date,Loser/tie,Winner/tie,PtsW,PtsL
 2009-09-13,Tennessee Titans,Pittsburgh Steelers,13,10
 2009-09-13,Cincinnati Bengals,Denver Broncos,12,7
 2009-09-13,Kansas City Chiefs,Baltimore Ravens,38,24
