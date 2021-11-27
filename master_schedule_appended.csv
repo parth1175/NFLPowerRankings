@@ -3369,7 +3369,6 @@ Date,team,opponent,PtsW,PtsL
 2010-01-24,Indianapolis,NY Jets,30,17
 2010-01-24,New Orleans,Minnesota,31,28
 2010-02-07,New Orleans,Indianapolis,31,17
-Date,,,PtsW,PtsL
 2009-09-13,Pittsburgh,Tennessee,13,10
 2009-09-13,Denver,Cincinnati,12,7
 2009-09-13,Baltimore,Kansas City,38,24
@@ -8609,7 +8608,6 @@ Date,,,PtsW,PtsL
 2010-01-24,NY Jets,Indianapolis,30,17
 2010-01-24,Minnesota,New Orleans,31,28
 2010-02-07,Indianapolis,New Orleans,31,17
-Date,,,PtsW,PtsL
 2009-09-13,Tennessee,Pittsburgh,13,10
 2009-09-13,Cincinnati,Denver,12,7
 2009-09-13,Kansas City,Baltimore,38,24
