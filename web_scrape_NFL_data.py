@@ -41,10 +41,10 @@ def main():
     # sack_percent_url = 'https://www.teamrankings.com/nfl/stat/sack-pct'
 
     # master_schedule_url = 'https://www.pro-football-reference.com/years/2009/games.htm'
-    driver.get(scoring_margin_url) # change this line of code based on feature needed
+    driver.get(ranking_url) # change this line of code based on feature needed
 
     sunday = get_prev_sunday()
-    get_weekly_feature(driver, sunday, 'scoring margin', column=5) # change column's title and csv filename to 3rd parameter
+    get_weekly_feature(driver, sunday, 'ranking', column=5) # change column's title and csv filename to 3rd parameter
     # get_master_schedule(driver)
 
     driver.quit()
