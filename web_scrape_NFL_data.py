@@ -44,14 +44,11 @@ def main():
     driver.get(ranking_url) # change this line of code based on feature needed
 
     sunday = get_prev_sunday()
-    get_weekly_feature(driver, sunday, 'ranking', column=5) # change column's title and csv filename to 3rd parameter
+    # sunday = datetime.date(2021,9,19)
+    get_weekly_feature(driver, sunday, 'ranking v2', column=2) # change column's title and csv filename to 3rd parameter
     # get_master_schedule(driver)
 
     driver.quit()
-
-
-def log_data():
-    pass
 
 
 def get_weekly_feature(driver, date, feature, column=3):
@@ -82,6 +79,9 @@ def get_weekly_feature(driver, date, feature, column=3):
                 select_day(driver, date.day)
 
             selected_date = datetime.date(date.year, date.month, date.day)
+
+            # if selected_date.year == 2019 and selected_date.month == 9 and selected_date.day == 22:
+            #     print('break')
 
             # only get ranks for in-season time range
             # if date.month == 9 and date.day == 12 and date.year == 2021:
@@ -257,9 +257,10 @@ def select_day(driver, day):
     for row in table_rows:
         cols = row.find_elements(By.XPATH, ".//td")
         for col in cols:
-            if col.text == str(day):
-                col.click()
-                return
+            if 'old' not in col.get_attribute('class'):
+                if col.text == str(day):
+                    col.click()
+                    return
 
 
 def get_prev_sunday():

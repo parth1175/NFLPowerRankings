@@ -16,3 +16,4 @@ print(total_points)
 merged = pd.merge(rank_df,total_points,how="inner",on=["team","year","month","day"])
 
 print(merged)
+
