@@ -5,6 +5,8 @@ Finaldf = pd.DataFrame(final)
 
 weighted_SM = []
 counter = 0
+
+
 for index, row in Finaldf.iterrows():
     counter = counter+1
     Orank = row[4]
@@ -15,6 +17,8 @@ for index, row in Finaldf.iterrows():
         weighted_SM.append(Orank*SM)
     else:
         weighted_SM.append(0)
+
+
 print(counter)
 print(len(weighted_SM))
 Finaldf["weighted_SM"] = weighted_SM
