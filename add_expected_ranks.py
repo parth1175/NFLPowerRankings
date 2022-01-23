@@ -1,3 +1,9 @@
+"""
+    Input: takes a historical ranking csv file for each team, each week, each season until ____
+    Output: reformats data to show team ranking for each week and expected ranking at the end of the week.
+            This is used as the training/testing dataset
+"""
+
 
 import pandas as pd
 import datetime
@@ -22,7 +28,7 @@ for i, row in rank_df.iterrows():
     temp1 = rank_df[rank_df['DateTime'] - datetime.timedelta(7) ==row['DateTime']]
 
     temp2 = temp1[temp1['team']==row['team']]
-    
+
     if temp2.empty:
         expected_r.append(None)
     else:
@@ -33,4 +39,4 @@ exp = pd.DataFrame(expected_r)
 rank_df['Expected'] = expected_r
 print(rank_df)
 rank_df.to_csv('expected.csv')
-    ##rank_df[rank_df['team']==row['team'] & 
+    ##rank_df[rank_df['team']==row['team'] &
